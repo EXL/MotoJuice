@@ -141,7 +141,7 @@ h6 {
 	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
 	clear: both;
 	font-weight: bold;
-	margin: 36px 0 12px;
+	margin: 12px 0 12px;
 }
 
 h1 {
@@ -203,7 +203,7 @@ ins {
 }
 
 p {
-	margin-bottom: 5px;
+	margin-bottom: 12px;
 }
 
 code,
@@ -323,7 +323,7 @@ dd {
 ul,
 ol {
 	list-style: none;
-	margin: 0 0 24px 20px;
+	margin: 0 0 5px 20px;
 }
 
 ul {
