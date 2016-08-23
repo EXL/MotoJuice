@@ -4319,3 +4319,12 @@ a.post-thumbnail:hover {
 		line-height: 36px;
 	}
 }
+
+
+/* === User Definitions === */
+
+/* Center page content */
+#page {
+	margin-left: auto;
+	margin-right: auto;
+}
