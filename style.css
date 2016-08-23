@@ -1007,7 +1007,7 @@ span + .edit-link:before,
 .secondary-navigation {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	font-size: 12px;
-	margin: 48px 0;
+	/*margin: 48px 0;*/
 }
 
 .secondary-navigation a {
@@ -1711,7 +1711,7 @@ a.post-thumbnail:hover {
 
 .paging-navigation {
 	border-top: 5px solid #000;
-	margin: 48px 0;
+	/*margin: 48px 0;*/
 }
 
 .paging-navigation .loop-pagination {
