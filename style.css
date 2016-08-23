@@ -3461,7 +3461,7 @@ a.post-thumbnail:hover {
 	}
 
 	.masthead-fixed .site-main {
-		margin-top: 48px;
+		margin-top: 5px;
 	}
 
 	/* Navigation */
@@ -3649,7 +3649,7 @@ a.post-thumbnail:hover {
 @media screen and (min-width: 846px) {
 	.content-area,
 	.content-sidebar {
-		padding-top: 72px;
+		padding-top: 0px;
 	}
 
 	.site-content .has-post-thumbnail .entry-header {
