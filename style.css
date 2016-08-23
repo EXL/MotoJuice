@@ -921,6 +921,7 @@ span + .edit-link:before,
 .search-box {
 	background-color: #41a62a;
 	padding: 12px;
+	opacity: 0.75;
 }
 
 .search-box .search-field {
@@ -1050,7 +1051,7 @@ span + .edit-link:before,
 }
 
 .hentry {
-	margin: 0 auto 48px;
+	/*margin: 0 auto 48px;*/
 	max-width: 672px;
 }
 
@@ -1060,7 +1061,7 @@ span + .edit-link:before,
 .site-content .entry-meta,
 .page-content {
 	margin: 0 auto;
-	max-width: 474px;
+	/*max-width: 474px;*/
 }
 
 .page-content {
@@ -1105,8 +1106,8 @@ a.post-thumbnail:hover {
 	font-size: 33px;
 	font-weight: 300;
 	line-height: 1.0909090909;
-	margin-bottom: 12px;
-	margin: 0 0 12px 0;
+	margin-bottom: 5px;
+	margin: 0 0 5px 0;
 	text-transform: uppercase;
 }
 
@@ -1120,7 +1121,7 @@ a.post-thumbnail:hover {
 
 .site-content .entry-header {
 	background-color: #fff;
-	padding: 0 10px 12px;
+	/*padding: 0 10px 12px;*/
 }
 
 .site-content .has-post-thumbnail .entry-header {
@@ -1178,7 +1179,7 @@ a.post-thumbnail:hover {
 
 .site-content .entry-meta {
 	background-color: #fff;
-	margin-bottom: 8px;
+	/*margin-bottom: 8px;*/
 }
 
 .site-content footer.entry-meta {
@@ -1254,7 +1255,7 @@ a.post-thumbnail:hover {
 .site-content .entry-summary,
 .page-content {
 	background-color: #fff;
-	padding: 12px 10px 0;
+	/*padding: 12px 10px 0;*/
 }
 
 .page .entry-content {
@@ -1665,7 +1666,7 @@ a.post-thumbnail:hover {
 .post-navigation,
 .image-navigation {
 	margin: 24px auto 48px;
-	max-width: 474px;
+	/*max-width: 474px;*/
 	padding: 0 10px;
 }
 
@@ -1768,7 +1769,7 @@ a.post-thumbnail:hover {
 .archive-header,
 .page-header {
 	margin: 24px auto;
-	max-width: 474px;
+	/*max-width: 474px;*/
 }
 
 .archive-title,
@@ -1827,7 +1828,7 @@ a.post-thumbnail:hover {
 
 .contributor-info {
 	margin: 0 auto;
-	max-width: 474px;
+	/*max-width: 474px;*/
 }
 
 .contributor-avatar {
@@ -1903,8 +1904,8 @@ a.post-thumbnail:hover {
  */
 
 .comments-area {
-	margin: 48px auto;
-	max-width: 474px;
+	/*margin: 48px auto;*/
+	/*max-width: 474px;*/
 	padding: 0 10px;
 }
 
@@ -1917,7 +1918,7 @@ a.post-thumbnail:hover {
 
 .comment-list {
 	list-style: none;
-	margin: 0 0 48px 0;
+	margin: 0 0 0px 0;
 }
 
 .comment-author {
@@ -1930,10 +1931,6 @@ a.post-thumbnail:hover {
 	font-size: 12px;
 	line-height: 2;
 	text-transform: uppercase;
-}
-
-.comment-list .reply {
-	margin-top: 24px;
 }
 
 .comment-author .fn {
@@ -1961,8 +1958,8 @@ a.post-thumbnail:hover {
 .comment-list .pingback,
 .comment-list .trackback {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
-	margin-bottom: 24px;
-	padding-top: 24px;
+	margin-bottom: 5px;
+	padding-top: 5px;
 }
 
 .comment-list > li:first-child > article,
@@ -2050,10 +2047,6 @@ a.post-thumbnail:hover {
 	padding: 0;
 }
 
-.comment .comment-respond {
-	margin-top: 24px;
-}
-
 .comment-respond h3 {
 	margin-top: 0;
 	margin-bottom: 24px;
@@ -2079,7 +2072,7 @@ a.post-thumbnail:hover {
 	font-size: 16px;
 	font-weight: 900;
 	line-height: 1.5;
-	margin-top: 24px;
+	/*margin-top: 24px;*/
 	text-transform: uppercase;
 }
 
@@ -3051,7 +3044,7 @@ a.post-thumbnail:hover {
 .widecolumn > h2,
 .widecolumn > form {
 	margin: 0 auto 48px;
-	max-width: 474px;
+	/*max-width: 474px;*/
 	padding: 0 30px;
 }
 
@@ -3281,7 +3274,7 @@ a.post-thumbnail:hover {
 
 	.archive-header,
 	.page-header {
-		margin: 0 auto 60px;
+		margin: 0 auto 0px;
 		padding: 0 10px;
 	}
 
@@ -3292,8 +3285,8 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 594px) {
 	.site-content .entry-header {
-		padding-right: 30px;
-		padding-left: 30px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	.site-content .has-post-thumbnail .entry-header {
@@ -3336,8 +3329,8 @@ a.post-thumbnail:hover {
 	.site-content .entry-content,
 	.site-content .entry-summary,
 	.site-content footer.entry-meta {
-		padding-right: 30px;
-		padding-left: 30px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	.singular .site-content .hentry.has-post-thumbnail {
@@ -3661,8 +3654,8 @@ a.post-thumbnail:hover {
 	.comment-list .trackback,
 	.comment-list .pingback,
 	.comment-list article {
-		margin-bottom: 36px;
-		padding-top: 36px;
+		margin-bottom: 5px;
+		padding-top: 5px;
 	}
 
 	.comment-author .avatar {
@@ -4040,8 +4033,8 @@ a.post-thumbnail:hover {
 	.full-width .site-content .entry-content,
 	.full-width .site-content .entry-summary,
 	.full-width .site-content footer.entry-meta {
-		padding-right: 30px;
-		padding-left: 30px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 }
 
@@ -4052,7 +4045,7 @@ a.post-thumbnail:hover {
 
 	.site-content,
 	.site-main .widecolumn {
-		margin-left: 222px;
+		margin-left: 130px;
 	}
 
 	.site:before {
@@ -4061,7 +4054,7 @@ a.post-thumbnail:hover {
 
 	.search-box-wrapper,
 	.featured-content {
-		padding-left: 222px;
+		padding-left: 130px;
 	}
 
 	#secondary {
@@ -4117,8 +4110,8 @@ a.post-thumbnail:hover {
 	.site-content .entry-content,
 	.site-content .entry-summary,
 	.site-content footer.entry-meta {
-		padding-right: 30px;
-		padding-left: 30px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 }
 
@@ -4333,4 +4326,24 @@ a.post-thumbnail:hover {
 
 select {
 	font-size: 75%;
+}
+
+/* Headers */
+/*h1 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-weight: bold;
+	margin: 0px;
+	font-size: 0.8em;
+}*/
+
+/* Disable Caps */
+.entry-meta a,
+.footer-sidebar .widget .widget-title,
+.primary-sidebar .widget .widget-title,
+.entry-title,
+.comments-title,
+.comment-respond h3,
+.comment-list .reply,
+.comment-metadata {
+	text-transform: none;
 }
