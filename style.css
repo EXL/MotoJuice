@@ -174,7 +174,7 @@ h6 {
 
 address {
 	font-style: italic;
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 }
 
 abbr[title] {
@@ -201,7 +201,7 @@ ins {
 }
 
 p {
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 }
 
 code,
@@ -224,7 +224,7 @@ pre {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
 	box-sizing:         border-box;
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 	max-width: 100%;
 	overflow: auto;
 	padding: 12px;
@@ -256,7 +256,7 @@ blockquote {
 	font-style: italic;
 	font-weight: 300;
 	line-height: 1.2631578947;
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 }
 
 blockquote cite,
@@ -304,7 +304,7 @@ sub {
 }
 
 dl {
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 }
 
 dt {
@@ -312,7 +312,7 @@ dt {
 }
 
 dd {
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 }
 
 ul,
@@ -425,7 +425,7 @@ table {
 	border-collapse: separate;
 	border-spacing: 0;
 	border-width: 1px 0 0 1px;
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 	width: 100%;
 }
 
@@ -604,7 +604,7 @@ embed,
 iframe,
 object,
 video {
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 	max-width: 100%;
 }
 
@@ -674,7 +674,7 @@ img.aligncenter,
 }
 
 .wp-caption {
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 }
 
 .wp-caption img[class*="wp-image-"] {
@@ -1305,7 +1305,7 @@ a.post-thumbnail:hover {
 .comment-content table {
 	font-size: 14px;
 	line-height: 1.2857142857;
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 }
 
 .entry-content th,
@@ -1757,7 +1757,7 @@ a.post-thumbnail:hover {
 }
 
 .entry-attachment .attachment {
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 }
 
 
@@ -1874,7 +1874,7 @@ a.post-thumbnail:hover {
 }
 
 .error404 .page-content .search-form {
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 }
 
 
@@ -2043,13 +2043,13 @@ a.post-thumbnail:hover {
 }
 
 .comment-respond {
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 	padding: 0;
 }
 
 .comment-respond h3 {
 	margin-top: 0;
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 }
 
 .comment-notes,
@@ -3279,7 +3279,7 @@ a.post-thumbnail:hover {
 	}
 
 	.error404 .page-header {
-		margin-bottom: 24px;
+		margin-bottom: 5px;
 	}
 }
 
