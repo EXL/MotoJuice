@@ -3453,12 +3453,11 @@ a.post-thumbnail:hover {
 	/* Fixed Header */
 
 	.masthead-fixed .site-header {
-		position: fixed;
-		top: 0;
+		position: relative;
 	}
 
 	.admin-bar.masthead-fixed .site-header {
-		top: 32px;
+		top: 0px;
 	}
 
 	.masthead-fixed .site-main {
