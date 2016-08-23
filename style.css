@@ -101,7 +101,7 @@ button,
 input,
 select,
 textarea {
-	color: #2b2b2b;
+	color: black;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -110,6 +110,7 @@ textarea {
 
 body {
 	background: #f5f5f5;
+	font-size: 0.8em;
 }
 
 a {
@@ -137,38 +138,39 @@ h3,
 h4,
 h5,
 h6 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
 	clear: both;
-	font-weight: 700;
+	font-weight: bold;
 	margin: 36px 0 12px;
 }
 
 h1 {
-	font-size: 26px;
+	font-size: 1.5em;
 	line-height: 1.3846153846;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 1.4em;
 	line-height: 1;
 }
 
 h3 {
-	font-size: 22px;
+	font-size: 1.3em;
 	line-height: 1.0909090909;
 }
 
 h4 {
-	font-size: 20px;
+	font-size: 1.2em;
 	line-height: 1.2;
 }
 
 h5 {
-	font-size: 18px;
+	font-size: 1.1em;
 	line-height: 1.3333333333;
 }
 
 h6 {
-	font-size: 16px;
+	font-size: 1.0em;
 	line-height: 1.5;
 }
 
@@ -261,7 +263,7 @@ blockquote {
 
 blockquote cite,
 blockquote small {
-	color: #2b2b2b;
+	color: black;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5;
@@ -483,7 +485,7 @@ input,
 textarea {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 2px;
-	color: #2b2b2b;
+	color: black;
 	padding: 8px 10px 7px;
 }
 
@@ -1103,8 +1105,8 @@ a.post-thumbnail:hover {
 }
 
 .entry-title {
-	font-size: 33px;
-	font-weight: 300;
+	/*font-size: 33px;*/
+	font-weight: bold;
 	line-height: 1.0909090909;
 	margin-bottom: 5px;
 	margin: 0 0 5px 0;
@@ -1112,7 +1114,7 @@ a.post-thumbnail:hover {
 }
 
 .entry-title a {
-	color: #2b2b2b;
+	color: black;
 }
 
 .entry-title a:hover {
@@ -1161,7 +1163,7 @@ a.post-thumbnail:hover {
 }
 
 .cat-links a {
-	color: #2b2b2b;
+	color: black;
 }
 
 .cat-links a:hover {
@@ -1689,7 +1691,7 @@ a.post-thumbnail:hover {
 
 .post-navigation a,
 .image-navigation a {
-	color: #2b2b2b;
+	color: black;
 	display: block;
 	font-size: 14px;
 	font-weight: 700;
@@ -1725,7 +1727,7 @@ a.post-thumbnail:hover {
 }
 
 .paging-navigation a {
-	color: #2b2b2b;
+	color: black;
 }
 
 .paging-navigation .page-numbers.current {
@@ -1734,7 +1736,7 @@ a.post-thumbnail:hover {
 
 .paging-navigation a:hover {
 	border-top: 5px solid #41a62a;
-	color: #2b2b2b;
+	color: black;
 }
 
 
@@ -1938,7 +1940,7 @@ a.post-thumbnail:hover {
 }
 
 .comment-author a {
-	color: #2b2b2b;
+	color: black;
 }
 
 .comment-list .trackback a,
@@ -2097,7 +2099,7 @@ a.post-thumbnail:hover {
 }
 
 .comment-reply-title small a {
-	color: #2b2b2b;
+	color: black;
 	float: right;
 	height: 24px;
 	overflow: hidden;
@@ -2598,11 +2600,11 @@ a.post-thumbnail:hover {
 
 .content-sidebar .widget mark,
 .content-sidebar .widget ins {
-	color: #2b2b2b;
+	color: black;
 }
 
 .content-sidebar .widget abbr[title] {
-	border-color: #2b2b2b;
+	border-color: black;
 }
 
 .content-sidebar .widget fieldset {
@@ -2614,7 +2616,7 @@ a.post-thumbnail:hover {
 }
 
 .content-sidebar .widget blockquote cite {
-	color: #2b2b2b;
+	color: black;
 }
 
 .content-sidebar .widget li > ol,
@@ -2640,7 +2642,7 @@ a.post-thumbnail:hover {
 .content-sidebar .widget textarea {
 	background-color: #fff;
 	border-color: rgba(0, 0, 0, 0.1);
-	color: #2b2b2b;
+	color: black;
 }
 
 .content-sidebar .widget input:focus,
@@ -2677,7 +2679,7 @@ a.post-thumbnail:hover {
 
 .content-sidebar .widget .widget-title {
 	border-top: 5px solid #000;
-	color: #2b2b2b;
+	color: black;
 	font-size: 14px;
 	font-weight: 900;
 	margin: 0 0 18px;
@@ -2686,7 +2688,7 @@ a.post-thumbnail:hover {
 }
 
 .content-sidebar .widget .widget-title a {
-	color: #2b2b2b;
+	color: black;
 }
 
 .content-sidebar .widget .widget-title a:hover {
@@ -2712,7 +2714,7 @@ a.post-thumbnail:hover {
 /* Calendar Widget */
 
 .content-sidebar .widget_calendar caption {
-	color: #2b2b2b;
+	color: black;
 	font-weight: 900;
 }
 
@@ -4168,7 +4170,7 @@ a.post-thumbnail:hover {
 @media print {
 	body {
 		background: none !important; /* Brute force since user agents all print differently. */
-		color: #2b2b2b;
+		color: black;
 		font-size: 12pt;
 	}
 
@@ -4212,7 +4214,7 @@ a.post-thumbnail:hover {
 	.entry-meta a,
 	.featured-content .hentry,
 	.featured-content a {
-		color: #2b2b2b;
+		color: black;
 	}
 
 	.entry-content a,
@@ -4324,17 +4326,10 @@ a.post-thumbnail:hover {
 	margin-right: auto;
 }
 
+/* Small Categories ComboBox */
 select {
 	font-size: 75%;
 }
-
-/* Headers */
-/*h1 {
-	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
-	font-weight: bold;
-	margin: 0px;
-	font-size: 0.8em;
-}*/
 
 /* Disable Caps */
 .entry-meta a,
@@ -4346,4 +4341,8 @@ select {
 .comment-list .reply,
 .comment-metadata {
 	text-transform: none;
+}
+
+a {
+	color: rgb(204, 102, 0);
 }
