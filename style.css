@@ -203,7 +203,7 @@ ins {
 }
 
 p {
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 }
 
 code,
@@ -341,7 +341,7 @@ li > ol {
 
 img {
 	-ms-interpolation-mode: bicubic;
-	border: 0;
+	border: solid 1px #380000;
 	vertical-align: middle;
 }
 
@@ -1679,7 +1679,7 @@ a.post-thumbnail:hover {
 .image-navigation .previous-image,
 .image-navigation .next-image {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.6);
-	padding: 11px 0 12px;
+	padding: 5px 0 6px;
 	width: 100%;
 }
 
@@ -4344,7 +4344,8 @@ select {
 .comment-list .reply,
 .comment-metadata,
 .cat-links a,
-.primary-navigation a {
+.primary-navigation a,
+.post-navigation .meta-nav {
 	text-transform: none;
 }
 
