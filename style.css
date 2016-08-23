@@ -2156,7 +2156,7 @@ a.post-thumbnail:hover {
 	clear: both;
 	color: rgba(255, 255, 255, 0.7);
 	margin-top: -1px;
-	padding: 0 10px;
+	padding: 0 5px;
 	position: relative;
 	z-index: 2;
 }
@@ -2205,7 +2205,7 @@ a.post-thumbnail:hover {
 	-ms-hyphens:     auto;
 	hyphens:         auto;
 	line-height: 1.2857142857;
-	margin-bottom: 48px;
+	margin-bottom: 5px;
 	width: 100%;
 	word-wrap: break-word;
 }
@@ -3353,10 +3353,12 @@ a.post-thumbnail:hover {
 		margin-top: -48px;
 	}
 
+	/*
 	#secondary,
 	#supplementary {
 		padding: 0 30px;
 	}
+	*/
 
 	.content-sidebar {
 		border: 0;
@@ -3726,7 +3728,7 @@ a.post-thumbnail:hover {
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 182px;
+		width: 130px;
 		z-index: 2;
 	}
 
@@ -3737,7 +3739,7 @@ a.post-thumbnail:hover {
 		float: left;
 		margin: 0 0 0 -100%;
 		min-height: 100vh;
-		width: 122px;
+		width: 120px;
 	}
 
 	.primary-sidebar {
@@ -3913,7 +3915,7 @@ a.post-thumbnail:hover {
 		font-size: 11px;
 		font-weight: 900;
 		line-height: 1.6363636363;
-		margin-bottom: 18px;
+		margin-bottom: 2px;
 	}
 
 	.footer-sidebar .widget_twentyfourteen_ephemera .entry-title,
@@ -4054,7 +4056,7 @@ a.post-thumbnail:hover {
 	}
 
 	.site:before {
-		width: 222px;
+		width: 130px;
 	}
 
 	.search-box-wrapper,
@@ -4063,7 +4065,7 @@ a.post-thumbnail:hover {
 	}
 
 	#secondary {
-		width: 162px;
+		width: 120px;
 	}
 
 	.secondary-navigation,
@@ -4327,4 +4329,8 @@ a.post-thumbnail:hover {
 #page {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+select {
+	font-size: 75%;
 }
