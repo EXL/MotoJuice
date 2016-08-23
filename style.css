@@ -820,7 +820,7 @@ span + .edit-link:before,
 
 .site {
 	background-color: #fff;
-	max-width: 1260px;
+	max-width: 1366px;
 	position: relative;
 }
 
@@ -847,7 +847,7 @@ span + .edit-link:before,
 
 .site-header {
 	background-color: #000;
-	max-width: 1260px;
+	max-width: 1366px;
 	position: relative;
 	width: 100%;
 	z-index: 4;
