@@ -4366,3 +4366,54 @@ select {
 .entry-header {
 	padding-bottom: 5px;
 }
+
+/* Footer signs */
+
+.copyright-sign,
+.design-sign,
+.theme-sign {
+	text-align: center;
+	color: black;
+}
+
+.rss-sign,
+.rss-sign:visited {
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 2px;
+	color: white;
+}
+
+.rss-sign:hover {
+	color: #ff6600;
+}
+
+.rss-sign span {
+	display: none;
+}
+
+.rss-sign::after {
+	content: '\f413';
+	-webkit-font-smoothing: antialiased;
+	font: normal 48px/1.125 Genericons;
+}
+
+.copyright-sign {
+	margin-top: 3px;
+}
+
+.theme-sign {
+	margin-bottom: 3px;
+}
+
+.design-sign a,
+.theme-sign a {
+	font-weight: bold;
+	color: #500000;
+}
+
+.design-sign a:hover,
+.theme-sign a:hover {
+	color: darkred;
+	text-decoration: underline;
+}
