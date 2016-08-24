@@ -1016,7 +1016,7 @@ span + .edit-link:before,
 }
 
 .menu-toggle {
-	background-color: #000;
+	background-color: #4f564b;
 	border-radius: 0;
 	cursor: pointer;
 	height: 48px;
@@ -2149,7 +2149,7 @@ a.post-thumbnail:hover {
 /* Secondary */
 
 #secondary {
-	background-color: #000;
+	background-color: #4f564b;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	clear: both;
