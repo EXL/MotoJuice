@@ -3714,6 +3714,29 @@ a.post-thumbnail:hover {
 	}
 
 	.site:before {
+		z-index: 2;
+		display: block;
+		position: absolute;
+		left: 130px;
+
+		/* Right Gradient Border from:
+		 * https://css-tricks.com/examples/GradientBorder/
+		 * site	*/
+		border-width: 0 10px 0 0;
+		border-style: solid;
+		-webkit-border-image:
+		-webkit-gradient(linear, 100% 0, 0 0, from(black), to(rgb(255, 255, 255))) 1 100%;
+		-webkit-border-image:
+		-webkit-linear-gradient(right, black, rgb(255, 255, 255)) 1 100%;
+		-moz-border-image:
+		-moz-linear-gradient(right, black, rgb(255, 255, 255)) 1 100%;
+		-o-border-image:
+		-o-linear-gradient(right, black, rgb(255, 255, 255)) 1 100%;
+		border-image:
+		linear-gradient(to right, black, rgb(255, 255, 255)) 1 100%;
+	}
+
+	.site:before {
 		background-color: #f9bc01;
 		content: "";
 		display: block;
@@ -4047,26 +4070,7 @@ a.post-thumbnail:hover {
 
 	.site-content,
 	.site-main .widecolumn {
-		margin-left: 130px;
-		/* Left Gradient Border from:
-		 * https://css-tricks.com/examples/GradientBorder/
-		 * site	*/
-		border-width: 10px 0 10px 10px;
-		border-style: solid;
-		-webkit-border-image:
-		-webkit-gradient(linear, 100% 0, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
-		-webkit-border-image:
-		-webkit-linear-gradient(right, black, rgba(0, 0, 0, 0)) 1 100%;
-		-moz-border-image:
-		-moz-linear-gradient(right, black, rgba(0, 0, 0, 0)) 1 100%;
-		-o-border-image:
-		-o-linear-gradient(right, black, rgba(0, 0, 0, 0)) 1 100%;
-		border-image:
-		linear-gradient(to right, black, rgba(0, 0, 0, 0)) 1 100%;
-	}
-
-	.site:before {
-		width: 130px;
+		margin-left: 140px;
 	}
 
 	.search-box-wrapper,
@@ -4379,8 +4383,8 @@ select {
 .rss-sign,
 .rss-sign:visited {
 	position: absolute;
-	margin-left: 30px;
-	margin-top: 2px;
+	margin-left: 6px;
+	margin-top: 4px;
 	color: white;
 }
 
