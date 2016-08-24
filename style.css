@@ -851,11 +851,12 @@ span + .edit-link:before,
 }
 
 .site-header {
-	background-color: #000;
+	background-color: #4f564b;
 	max-width: 1366px;
 	position: relative;
 	width: 100%;
 	z-index: 4;
+	border-bottom: 1px solid black;
 }
 
 .header-main {
@@ -1112,7 +1113,7 @@ a.post-thumbnail:hover {
 	font-weight: bold;
 	line-height: 1.0909090909;
 	margin-bottom: 5px;
-	margin: 0 0 5px 0;
+	margin: 5px 0 5px 0;
 	text-transform: uppercase;
 }
 
@@ -2383,7 +2384,7 @@ a.post-thumbnail:hover {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.7142857142;
-	margin: 0 0 24px 0;
+	margin: 15px 0 2px 0;
 	text-transform: uppercase;
 }
 
@@ -2817,10 +2818,11 @@ a.post-thumbnail:hover {
 }
 
 .site-footer {
-	background-color: #000;
+	background-color: #4f564b;
 	font-size: 12px;
 	position: relative;
 	z-index: 3;
+	border-top: 1px solid black;
 }
 
 .footer-sidebar {
@@ -3461,7 +3463,7 @@ a.post-thumbnail:hover {
 	}
 
 	.masthead-fixed .site-main {
-		margin-top: 5px;
+		margin-top: 0px;
 	}
 
 	/* Navigation */
@@ -3718,7 +3720,7 @@ a.post-thumbnail:hover {
 	}
 
 	.site:before {
-		background-color: #000;
+		background-color: #4f564b;
 		content: "";
 		display: block;
 		height: 100%;
@@ -4051,6 +4053,21 @@ a.post-thumbnail:hover {
 	.site-content,
 	.site-main .widecolumn {
 		margin-left: 130px;
+		/* Left Gradient Border from:
+		 * https://css-tricks.com/examples/GradientBorder/
+		 * site	*/
+		border-width: 10px 0 10px 10px;
+		border-style: solid;
+		-webkit-border-image:
+		-webkit-gradient(linear, 100% 0, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+		-webkit-border-image:
+		-webkit-linear-gradient(right, black, rgba(0, 0, 0, 0)) 1 100%;
+		-moz-border-image:
+		-moz-linear-gradient(right, black, rgba(0, 0, 0, 0)) 1 100%;
+		-o-border-image:
+		-o-linear-gradient(right, black, rgba(0, 0, 0, 0)) 1 100%;
+		border-image:
+		linear-gradient(to right, black, rgba(0, 0, 0, 0)) 1 100%;
 	}
 
 	.site:before {
