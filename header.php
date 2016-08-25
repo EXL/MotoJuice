@@ -42,8 +42,28 @@
 	<?php endif; ?>
 
 	<header id="masthead" class="site-header" role="banner">
+
+	<hr class="widgetBreaker">
+
 		<div class="header-main">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+
+			<div class="headerWidget" id="headerWidgetId">
+				<img class="imgElem" id="imgElem0" style="float: right;" src="http://exlmoto.ru/wp-content/themes/twentyfourteen/images/widget/0.png" />
+				<img class="imgElem" id="imgElem1" style="float: right;" src="http://exlmoto.ru/wp-content/themes/twentyfourteen/images/widget/1.png" />
+				<img class="imgElem" id="imgElem2" style="float: right;" src="http://exlmoto.ru/wp-content/themes/twentyfourteen/images/widget/2.png" />
+				<img class="imgElem" id="imgElem3" style="float: right;" src="http://exlmoto.ru/wp-content/themes/twentyfourteen/images/widget/3.png" />
+				<img class="imgElem" id="imgElem4" style="float: right;" src="http://exlmoto.ru/wp-content/themes/twentyfourteen/images/widget/4.png" />
+
+				<div class="imgDescription" id="imgDesc0"><?php printf( __( '0 Please move your mouse over the icon to read the description of the application. To hide a description, remove the cursor from icon.', 'twentyfourteen' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc1"><?php printf( __( '1 Please move your mouse over the icon to read the description of the application. To hide a description, remove the cursor from icon.', 'twentyfourteen' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc2"><?php printf( __( '2 Please move your mouse over the icon to read the description of the application. To hide a description, remove the cursor from icon.', 'twentyfourteen' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc3"><?php printf( __( '3 Please move your mouse over the icon to read the description of the application. To hide a description, remove the cursor from icon.', 'twentyfourteen' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc4"><?php printf( __( '4 Please move your mouse over the icon to read the description of the application. To hide a description, remove the cursor from icon.', 'twentyfourteen' ) ); ?></div>
+			</div>
+
+			<div class="mainDescription" id="imgDescMain"></div>
+			<div class="secondDescription" id="imgDescSecond"><?php printf( __( 'Please move your mouse over the icon to read the description of the application. To hide a description, remove the cursor from icon.', 'twentyfourteen' ) ); ?></div>
 
 			<div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php _e( 'Search', 'twentyfourteen' ); ?></a>

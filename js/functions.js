@@ -14,6 +14,17 @@
 	button = nav.find( '.menu-toggle' );
 	menu = nav.find( '.nav-menu' );
 
+	jQuery('.imgElem').mouseenter(function() {
+		jQuery('.mainDescription').html(jQuery('#imgDesc' + $(this).attr('id').slice(-1)).html());
+		jQuery('.mainDescription').show();
+		// console.log('in', jQuery('#imgDesc' + $(this).attr('id').slice(-1)));
+	});
+
+	jQuery('.imgElem').mouseleave(function() {
+		jQuery('.mainDescription').hide();
+		// console.log('out', $(this).attr('id').slice(-1));
+	});
+
 	// Enable menu toggle for small screens.
 	( function() {
 		if ( ! nav.length || ! button.length ) {
