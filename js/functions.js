@@ -14,13 +14,14 @@
 	button = nav.find( '.menu-toggle' );
 	menu = nav.find( '.nav-menu' );
 
+	// Show or Hide Image Widget description
 	jQuery('.imgElem').mouseenter(function() {
 		jQuery('.mainDescription').html(jQuery('#imgDesc' + $(this).attr('id').slice(-1)).html());
 		jQuery('.mainDescription').show();
 		// console.log('in', jQuery('#imgDesc' + $(this).attr('id').slice(-1)));
 	});
 
-	jQuery('.imgElem').mouseleave(function() {
+	jQuery('.secondDescription').mouseenter(function() {
 		jQuery('.mainDescription').hide();
 		// console.log('out', $(this).attr('id').slice(-1));
 	});

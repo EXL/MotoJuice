@@ -4607,6 +4607,7 @@ select {
 }
 
 .imgElem {
+	float: right;
 	margin-left: 5px;
 	border: none;
 }
@@ -4623,7 +4624,6 @@ select {
 .secondDescription {
 	position: absolute;
 	top: 58px;
-	width: 300px;
 	font-size: 0.85em;
 	color: white;
 	font-weight: bold;
@@ -4631,7 +4631,12 @@ select {
 
 .mainDescription {
 	display: none;
-	left: 10px;
+	left: 30px;
+	width: 400px;
+}
+
+.mainDescription b {
+	color: #ff6600;
 }
 
 .secondDescription {
