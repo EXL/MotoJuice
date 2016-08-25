@@ -66,6 +66,7 @@ function twentyfourteen_setup() {
 	 * template files.
 	 */
 	load_theme_textdomain( 'twentyfourteen' );
+	load_theme_textdomain( 'motojuice', get_stylesheet_directory() . '/languages' );
 
 	// This theme styles the visual editor to resemble the theme style.
 	add_editor_style( array( 'css/editor-style.css', twentyfourteen_font_url(), 'genericons/genericons.css' ) );
