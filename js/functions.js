@@ -93,7 +93,7 @@
 			}
 
 			if ( that.is( '.active' ) || $( '.search-toggle .screen-reader-text' )[0] === event.target ) {
-				wrapper.find( '.search-field' ).focus();
+				wrapper.find( '.search-input' ).focus();
 			}
 		} );
 
