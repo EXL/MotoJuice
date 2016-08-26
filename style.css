@@ -8,7 +8,7 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: orange, yellow, blog, news, two-columns, three-columns, left-sidebar, custom-header, flexible-header, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, custom-menu, adaptive, adaptive-layout
-Text Domain: twentyfourteen
+Text Domain: motojuice
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -3689,10 +3689,6 @@ a.post-thumbnail:hover {
 		border: 1px solid #380000;
 	}
 
-	.search-box-wrapper {
-		padding-left: 182px;
-	}
-
 	.main-content {
 		float: left;
 	}
@@ -4226,10 +4222,10 @@ a.post-thumbnail:hover {
 		margin-left: 140px;
 	}
 
-	.search-box-wrapper,
+	/*.search-box-wrapper,
 	.featured-content {
 		padding-left: 130px;
-	}
+	}*/
 
 	#secondary {
 		width: 120px;
@@ -4617,7 +4613,7 @@ select {
 }
 
 .button-search {
-	float: left !important;
+	float: right;
 	margin-top: 8px;
 }
 
@@ -4633,7 +4629,7 @@ select {
 .imgElem {
 	float: right;
 	margin-left: 5px;
-	/*outline: none;*/
+	border: none;
 }
 
 .imgElem:hover {
