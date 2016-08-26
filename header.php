@@ -36,7 +36,7 @@
 	<?php if ( get_header_image() ) : ?>
 	<div id="site-header">
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/header-image.png" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 		</a>
 	</div>
 	<?php endif; ?>
@@ -65,6 +65,8 @@
 					<img class="imgElem" id="imgElem4" src="<?php echo get_stylesheet_directory_uri(); ?>/images/widget/4.png" />
 				</a>
 
+				<!-- Please use the PoEdit program for changing the descriptions. Don't edit this labels manually!
+					 PoEdit site: https://poedit.net/ -->
 				<div class="imgDescription" id="imgDesc0"><?php printf( __( '<b>Project 1</b> Description.', 'motojuice' ) ); ?></div>
 				<div class="imgDescription" id="imgDesc1"><?php printf( __( '<b>Project 2</b> Description.', 'motojuice' ) ); ?></div>
 				<div class="imgDescription" id="imgDesc2"><?php printf( __( '<b>Project 3</b> Description.', 'motojuice' ) ); ?></div>

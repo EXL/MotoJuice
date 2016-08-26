@@ -31,7 +31,7 @@
 
 			<div class="theme-sign">
 				<?php printf( __( 'Theme: ', 'motojuice' ) ); ?>
-				<a href="<?php echo esc_url( __( 'https://github.com/EXL/MotoJuice', 'motojuice' ) ); ?>"><?php printf( __( 'MotoJuice', 'motojuice' ) ); ?></a>
+				<a href="<?php echo esc_url( __( 'https://github.com/EXL/MotoJuice', 'motojuice' ) ); ?>"><?php printf( __( 'Moto Juice', 'motojuice' ) ); ?></a>
 			</div><!--.theme-sign-->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
