@@ -65,7 +65,7 @@ function twentyfourteen_setup() {
 	 * replace to change 'twentyfourteen' to the name of your theme in all
 	 * template files.
 	 */
-	load_theme_textdomain( 'twentyfourteen' );
+	load_theme_textdomain( 'twentyfourteen', get_stylesheet_directory() . '/languages/default' );
 	load_theme_textdomain( 'motojuice', get_stylesheet_directory() . '/languages' );
 
 	// This theme styles the visual editor to resemble the theme style.
