@@ -4,17 +4,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Moto Juice 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/MotoJuice\n"
-"POT-Creation-Date: 2016-08-26 16:43+0000\n"
+"POT-Creation-Date: 2016-08-26 09:29:38+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-08-26 16:45+0000\n"
-"Language-Team: \n"
-"X-Generator: Poedit 1.8.8\n"
-"Last-Translator: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Language: ru_RU\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 
 #: 404.php:18
 msgid "Not Found"
@@ -63,7 +59,6 @@ msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: comments.php:34 comments.php:52
 msgid "Comment navigation"
@@ -149,24 +144,25 @@ msgstr ""
 
 #: footer.php:19
 msgid "RSS Atom Feed"
-msgstr "Лента RSS Atom"
+msgstr ""
 
 #: footer.php:20
 msgid "RSS Atom"
-msgstr "RSS Atom"
+msgstr ""
 
 #: footer.php:24
 msgid "Copyright © 2010-%s. All Rights Reserved"
-msgstr "Copyright © 2010-%s. Все права защищены."
+msgstr ""
 
 #: footer.php:28
 msgid "Designed by "
-msgstr "Дизайн и разработка: "
+msgstr ""
 
 #: footer.php:29
 msgid "https://exlmoto.ru/"
 msgstr ""
 
+#. #-#-#-#-#  MotoJuice.pot (Moto Juice 1.0)  #-#-#-#-#
 #. Author of the plugin/theme
 #: footer.php:29
 msgid "EXL"
@@ -174,13 +170,15 @@ msgstr ""
 
 #: footer.php:33
 msgid "Theme: "
-msgstr "Шаблон: "
+msgstr ""
 
+#. #-#-#-#-#  MotoJuice.pot (Moto Juice 1.0)  #-#-#-#-#
 #. Theme URI of the plugin/theme
 #: footer.php:34
 msgid "https://github.com/EXL/MotoJuice"
 msgstr ""
 
+#. #-#-#-#-#  MotoJuice.pot (Moto Juice 1.0)  #-#-#-#-#
 #. Theme Name of the plugin/theme
 #: footer.php:34
 msgid "Moto Juice"
@@ -238,7 +236,6 @@ msgid "%d Article"
 msgid_plural "%d Articles"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: functions.php:499
 msgid "Page %s"
@@ -247,44 +244,22 @@ msgstr ""
 #: header.php:70
 msgid "<b>Project 1</b> Description."
 msgstr ""
-"Первой игрой, которую я портировал на Android OS был <b>Spout</b>. Я отвязал "
-"приложение от библиотеки SDL, затем переписал рендеринг игрового контекста "
-"на OpenGL и OpenGL ES. В движок <b>Spout</b> были добавлены некоторые "
-"улучшения, вроде сенсорного управления."
 
 #: header.php:71
 msgid "<b>Project 2</b> Description."
 msgstr ""
-"В процессе портирования <b>Ken’s Labyrinth</b> на Android OS я решил не "
-"отвязывать игру от библиотеки SDL, а использовать её возможности. Проект был "
-"переведён на SDL2 и OpenGL ES, патчами на поддержку которого любезно "
-"поделился <b>Pickle</b>. В игру было добавлено сенсорное управление и "
-"лаунчер."
 
 #: header.php:72
 msgid "<b>Project 3</b> Description."
 msgstr ""
-"Портирование игры <b>AstroSmash</b> с J2ME на Android OS позволило мне "
-"разобраться во многих тонкостях декомпиляции Java-мидлетов и научиться "
-"отрисовывать графику через канвас системного класса SurfaceView. Игра "
-"<b>AstroSmash</b> была стандартной игрой во многих мобильных телефонах "
-"Motorola."
 
 #: header.php:73
 msgid "<b>Project 4</b> Description."
 msgstr ""
-"Игра <b>Snooder 21</b> является моим ремейком популярного карточного "
-"пасьянса <b>Snood™ 21</b>, который был стандартной игрой во многих телефонах "
-"от Motorola, например, <b>C350</b> или <b>V150</b>. Игровые ресурсы были "
-"отрисованы в духе оригинала. Приложение использует канвас класса SurfaceView."
 
 #: header.php:74
 msgid "<b>Project 5</b> Description."
 msgstr ""
-"Часы на кривых Безье <b>Bezier Clock</b> являются моей первой попыткой "
-"знакомства с языком программирования QML и технологией Qt Quick. Приложение "
-"реализовано в виде живых обоев для рабочего стола <b>KDE Plasma 5</b> и в "
-"виде standalone-приложения."
 
 #: header.php:75
 msgid "<b>Project 6</b> Description."
@@ -551,7 +526,6 @@ msgid_plural ""
 "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #. translators: used with More archives link
 #: inc/widgets.php:227
