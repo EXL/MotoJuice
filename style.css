@@ -2208,7 +2208,6 @@ a.post-thumbnail:hover {
 
 .widget a {
 	color: #500000;
-	margin-top: 3px;
 }
 
 .widget a:hover {
@@ -2521,7 +2520,7 @@ a.post-thumbnail:hover {
 .widget_recent_comments li,
 .widget_recent_entries li {
 	border-top: 1px solid #993300;
-	padding: 8px 0 9px;
+	padding: 2px 0 3px;
 }
 
 .widget_archive li:first-child,
@@ -2539,7 +2538,7 @@ a.post-thumbnail:hover {
 .widget_nav_menu li ul,
 .widget_pages li ul {
 	border-top: 1px solid #993300;
-	margin-top: 9px;
+	margin-top: 5px;
 }
 
 .widget_categories li li:last-child,
@@ -4084,7 +4083,7 @@ a.post-thumbnail:hover {
 	.primary-sidebar .widget_recent_comments li,
 	.primary-sidebar .widget_recent_entries li {
 		border-top: 0;
-		padding: 0 0 6px;
+		padding: 0 0 3px;
 	}
 
 	.footer-sidebar .widget_archive li:last-child,
@@ -4113,7 +4112,7 @@ a.post-thumbnail:hover {
 	.primary-sidebar .widget_nav_menu li ul,
 	.primary-sidebar .widget_pages li ul {
 		border-top: 0;
-		margin-top: 6px;
+		margin-top: 3px;
 	}
 
 	#supplementary {
@@ -4666,4 +4665,8 @@ select {
 	width: 100%;
 	margin: 0 0 0 0;
 	background-color: black;
+}
+
+.widget ul {
+	font-size: 1.1em;
 }
