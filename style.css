@@ -2152,7 +2152,7 @@ a.post-thumbnail:hover {
 	clear: both;
 	/*color: rgba(255, 255, 255, 0.7);*/
 	margin-top: -1px;
-	padding: 0 5px;
+	padding: 0 10px;
 	position: relative;
 	z-index: 2;
 }
@@ -2208,6 +2208,7 @@ a.post-thumbnail:hover {
 
 .widget a {
 	color: #500000;
+	margin-top: 3px;
 }
 
 .widget a:hover {
@@ -3088,6 +3089,7 @@ a.post-thumbnail:hover {
 
 @media screen and (max-width: 400px) {
 	.headerWidget,
+	.mainDescription,
 	.secondDescription {
 		display: none;
 	}
@@ -3175,6 +3177,7 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 401px) {
 	.headerWidget,
+	.mainDescription,
 	.secondDescription {
 		display: none;
 	}
@@ -3316,6 +3319,7 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 594px) {
 	.headerWidget,
+	.mainDescription,
 	.secondDescription {
 		display: none;
 	}
@@ -3340,6 +3344,7 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 673px) {
 	.headerWidget,
+	.mainDescription,
 	.secondDescription {
 		display: none;
 	}
@@ -3489,6 +3494,7 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 783px) {
 	.headerWidget,
+	.mainDescription,
 	.secondDescription {
 		display: none;
 	}
@@ -3662,6 +3668,7 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 810px) {
 	.headerWidget,
+	.mainDescription,
 	.secondDescription {
 		display: none;
 	}
@@ -3726,6 +3733,7 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 846px) {
 	.headerWidget,
+	.mainDescription,
 	.secondDescription {
 		display: none;
 	}
@@ -3783,12 +3791,13 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 1008px) {
 	.headerWidget,
+	.mainDescription,
 	.secondDescription {
-		display: block;
+		display: none;
 	}
 
 	.site-header {
-		height: 140px;
+		height: 48px;
 	}
 
 	img {
@@ -4139,12 +4148,13 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 1040px) {
 	.headerWidget,
+	.mainDescription,
 	.secondDescription {
-		display: block;
+		display: none;
 	}
 
 	.site-header {
-		height: 140px;
+		height: 48px;
 	}
 
 	img {
@@ -4186,8 +4196,13 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 1080px) {
 	.headerWidget,
+	.mainDescription,
 	.secondDescription {
-		display: block;
+		display: none;
+	}
+
+	.site-header {
+		height: 48px;
 	}
 
 	.search-box .search-field {
@@ -4252,12 +4267,13 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 1110px) {
 	.headerWidget,
+	.mainDescription,
 	.secondDescription {
-		display: block;
+		display: none;
 	}
 
 	.site-header {
-		height: 140px;
+		height: 48px;
 	}
 
 	img {
@@ -4625,8 +4641,7 @@ select {
 	position: absolute;
 	top: 58px;
 	font-size: 0.85em;
-	color: white;
-	font-weight: bold;
+	color: black;
 }
 
 .mainDescription {
@@ -4637,6 +4652,7 @@ select {
 
 .mainDescription b {
 	color: #ad4646;
+	font-weight: bold;
 }
 
 .secondDescription {

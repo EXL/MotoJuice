@@ -14,6 +14,17 @@
 	button = nav.find( '.menu-toggle' );
 	menu = nav.find( '.nav-menu' );
 
+	// Hack for Categories Widget
+	if (jQuery('.cat-item')) {
+		for (var i = 0; i < jQuery('.cat-item').length; ++i) {
+			var s = jQuery('.cat-item')[i].innerHTML;
+			s = s.replace('</a>', '').trim() + '</a>';
+			jQuery('.cat-item')[i].innerHTML = s;
+		}
+	}
+
+	jQuery('.widget a').css({ display: "block" });
+
 	// Show or Hide Image Widget description
 	jQuery('.imgElem').mouseenter(function() {
 		jQuery('.mainDescription').html(jQuery('#imgDesc' + $(this).attr('id').slice(-1)).html());
@@ -140,6 +151,12 @@
 	 * @since Twenty Fourteen 1.4
 	 */
 	function onResizeARIA() {
+
+		// Hack for disable main description widget
+		if ( _window.width() < 1218 ) {
+			jQuery('.mainDescription').hide();
+		}
+
 		if ( 781 > _window.width() ) {
 			button.attr( 'aria-expanded', 'false' );
 			menu.attr( 'aria-expanded', 'false' );
