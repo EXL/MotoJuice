@@ -11,6 +11,7 @@
 $metadata = wp_get_attachment_metadata();
 
 get_header();
+get_sidebar();
 ?>
 
 	<section id="primary" class="content-area image-attachment">
@@ -75,5 +76,4 @@ get_header();
 	</section><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();

@@ -7,7 +7,8 @@
  * @since Twenty Fourteen 1.0
  */
 
-get_header(); ?>
+get_header();
+get_sidebar(); ?>
 
 <div id="main-content" class="main-content">
 
@@ -48,5 +49,4 @@ get_header(); ?>
 </div><!-- #main-content -->
 
 <?php
-get_sidebar();
 get_footer();

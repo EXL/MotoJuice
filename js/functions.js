@@ -5,6 +5,9 @@
  * footer widgets and Featured Content slider
  *
  */
+
+var isPushed = false;
+
 ( function( $ ) {
 	var body    = $( 'body' ),
 		_window = $( window ),
@@ -50,6 +53,7 @@
 		}
 
 		button.on( 'click.twentyfourteen', function() {
+			isPushed = !isPushed;
 			nav.toggleClass( 'toggled-on' );
 			if ( nav.hasClass( 'toggled-on' ) ) {
 				$( this ).attr( 'aria-expanded', 'true' );
@@ -151,20 +155,27 @@
 	 * @since Twenty Fourteen 1.4
 	 */
 	function onResizeARIA() {
+		// http://stackoverflow.com/a/8501499/2467443
+		var width = Math.max( $(window).width(), window.innerWidth);
 
 		// Hack for disable main description widget
-		if ( _window.width() < 1218 ) {
+		if ( width < 1218 ) {
 			jQuery('.mainDescription').hide();
 		}
 
-		if ( 781 > _window.width() ) {
+		if ( width < 1008 ) {
 			button.attr( 'aria-expanded', 'false' );
 			menu.attr( 'aria-expanded', 'false' );
-			button.attr( 'aria-controls', 'primary-menu' );
+			//button.attr( 'aria-controls', 'primary-menu2' );
 		} else {
+			if (isPushed) {
+				nav.toggleClass( 'toggled-on' );
+				console.log('isPushed!')
+				isPushed = false;
+			}
 			button.removeAttr( 'aria-expanded' );
 			menu.removeAttr( 'aria-expanded' );
-			button.removeAttr( 'aria-controls' );
+			//button.removeAttr( 'aria-controls' );
 		}
 	}
 
