@@ -62,11 +62,11 @@
 						"<a href=\"http://exlmoto.ru/bezier-clock/\" title=\"Bezier Clock\">" .
 							"<img class=\"imgElem\" id=\"imgElem4\" src=\"" . $themeDir . "/images/widget/4.png\" />" .
 						"</a>",
-						"<a href=\"http://exlmoto.ru/bezier-clock/\" title=\"Bezier Clock\">" .
-							"<img class=\"imgElem\" id=\"imgElem5\" src=\"" . $themeDir . "/images/widget/2.png\" />" .
+						"<a href=\"http://exlmoto.ru/nxengine/\" title=\"Cave Story\">" .
+							"<img class=\"imgElem\" id=\"imgElem5\" src=\"" . $themeDir . "/images/widget/5.png\" />" .
 						"</a>",
-						"<a href=\"http://exlmoto.ru/bezier-clock/\" title=\"Bezier Clock\">" .
-							"<img class=\"imgElem\" id=\"imgElem6\" src=\"" . $themeDir . "/images/widget/2.png\" />" .
+						"<a href=\"http://exlmoto.ru/writing-telegram-bots/\" title=\"Gadget Hackwrench\">" .
+							"<img class=\"imgElem\" id=\"imgElem6\" src=\"" . $themeDir . "/images/widget/6.png\" />" .
 						"</a>"
 					);
 
