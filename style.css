@@ -8,7 +8,7 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: orange, yellow, blog, news, two-columns, three-columns, left-sidebar, custom-header, flexible-header, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready, custom-menu, adaptive, adaptive-layout
-Text Domain: motojuice
+Text Domain: twentyfourteen
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -522,6 +522,7 @@ input[type="submit"] {
 	padding: 10px 30px 11px;
 	text-transform: uppercase;
 	vertical-align: bottom;
+	float: right;
 }
 
 button:hover,
@@ -830,6 +831,7 @@ span + .edit-link:before,
 .site {
 	background-color: #fff;
 	max-width: 1366px;
+	min-height: 100vh;
 	position: relative;
 }
 
@@ -933,7 +935,6 @@ span + .edit-link:before,
 .search-box {
 	background-color: #000000;
 	padding: 12px;
-	opacity: 0.85;
 }
 
 .search-box .search-field {
@@ -2819,7 +2820,9 @@ a.post-thumbnail:hover {
 .site-footer {
 	background-color: #f9bc01;
 	font-size: 12px;
-	position: relative;
+	position: absolute;
+	width: 100%;
+	top: 100%;
 	z-index: 3;
 	border-top: 1px solid black;
 }
@@ -3755,8 +3758,8 @@ a.post-thumbnail:hover {
 		border: 0;
 		clear: none;
 		float: left;
-		/*margin: 0 0 0 -100%;*/
-		min-height: 100vh;
+		/*margin: 0 0 0 -100%;
+		min-height: 100vh;*/
 		width: 120px;
 		position: absolute;
 	}
@@ -4631,11 +4634,11 @@ select {
 .imgElem {
 	float: right;
 	margin-left: 5px;
-	border: none;
+	/*outline: none;*/
 }
 
 .imgElem:hover {
-	border: 1px solid #380000;
+	outline: 1px solid #380000;
 }
 
 .imgDescription {
@@ -4678,6 +4681,15 @@ select {
 	font-size: 1.1em;
 }
 
+/* Others */
 .nav-menu {
 	display: none;
+}
+
+.site-title img {
+	border: none;
+}
+
+.site-title:focus {
+	outline: none;
 }
