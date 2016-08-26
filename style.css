@@ -522,7 +522,6 @@ input[type="submit"] {
 	padding: 10px 30px 11px;
 	text-transform: uppercase;
 	vertical-align: bottom;
-	float: right;
 }
 
 button:hover,
@@ -831,7 +830,7 @@ span + .edit-link:before,
 .site {
 	background-color: #fff;
 	max-width: 1366px;
-	min-height: 100vh;
+	min-height: 700px;
 	position: relative;
 }
 
@@ -4618,7 +4617,7 @@ select {
 }
 
 .button-search {
-	float: right;
+	float: left !important;
 	margin-top: 8px;
 }
 
@@ -4627,7 +4626,7 @@ select {
 	position: absolute;
 	/*padding:5px;
 	width:100px;*/
-	right: 260px;
+	right: 64px;
 	top: 58px;
 }
 
@@ -4655,8 +4654,8 @@ select {
 
 .mainDescription {
 	display: none;
-	left: 30px;
-	width: 500px;
+	left: 280px;
+	width: 470px;
 }
 
 .mainDescription b {
@@ -4665,7 +4664,7 @@ select {
 }
 
 .secondDescription {
-	right: 10px;
+	left: 30px;
 	width: 240px;
 }
 

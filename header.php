@@ -80,7 +80,7 @@
 			</div>
 
 			<div class="mainDescription" id="imgDescMain"></div>
-			<div class="secondDescription" id="imgDescSecond"><?php printf( __( 'Please move your mouse cursor over the icon to read the description of the my current projects. To hide a description, move your mouse cursor to this inscription.', 'motojuice' ) ); ?></div>
+			<div class="secondDescription" id="imgDescSecond"><?php printf( __( 'Welcome!', 'motojuice' ) ); ?></div>
 
 			<div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php _e( 'Search', 'twentyfourteen' ); ?></a>

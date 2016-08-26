@@ -35,7 +35,7 @@ var isPushed = false;
 		// console.log('in', jQuery('#imgDesc' + $(this).attr('id').slice(-1)));
 	});
 
-	jQuery('.secondDescription').mouseenter(function() {
+	jQuery('.imgElem').mouseleave(function() {
 		jQuery('.mainDescription').hide();
 		// console.log('out', $(this).attr('id').slice(-1));
 	});
