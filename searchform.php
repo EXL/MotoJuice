@@ -1,4 +1,4 @@
-<form method="get" name="searchform" action="<?php bloginfo('url'); ?>/">
+<form method="get" name="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 	<div class="search">
 		<input class="search-input" name="s" type="text" autofocus value="<?php echo esc_attr(get_search_query()); ?>"
 			placeholder="<?php echo esc_attr_x( 'Search &hellip;', 'placeholder' ) ?>"

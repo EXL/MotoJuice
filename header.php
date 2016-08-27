@@ -50,7 +50,7 @@
 						"<a href=\"http://exlmoto.ru/spout-droid/\" title=\"Spout\">" .
 							"<img class=\"imgElem\" id=\"imgElem0\" src=\"" . $themeDir . "/images/widget/0.png\" />" .
 						"</a>",
-						"<a href=\"http://exlmoto.ru/kenlab3d-droid/\" title=\"Ken’s Labyrinth\">" .
+						"<a href=\"http://exlmoto.ru/kenlab3d-droid/\" title=\"Ken's Labyrinth\">" .
 							"<img class=\"imgElem\" id=\"imgElem1\" src=\"" . $themeDir . "/images/widget/1.png\" />" .
 						"</a>",
 						"<a href=\"http://exlmoto.ru/astrosmash-droid/\" title=\"AstroSmash\">" .
@@ -91,26 +91,26 @@
 
 				<!-- Please use the PoEdit program for changing the descriptions. Don't edit this labels manually!
 					 PoEdit site: https://poedit.net/ -->
-				<div class="imgDescription" id="imgDesc0"><?php printf( __( '<b>Project 1</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc1"><?php printf( __( '<b>Project 2</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc2"><?php printf( __( '<b>Project 3</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc3"><?php printf( __( '<b>Project 4</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc4"><?php printf( __( '<b>Project 5</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc5"><?php printf( __( '<b>Project 6</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc6"><?php printf( __( '<b>Project 7</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc7"><?php printf( __( '<b>Project 8</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc8"><?php printf( __( '<b>Project 9</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc9"><?php printf( __( '<b>Project 10</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc10"><?php printf( __( '<b>Project 11</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc11"><?php printf( __( '<b>Project 12</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc12"><?php printf( __( '<b>Project 13</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc13"><?php printf( __( '<b>Project 14</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc14"><?php printf( __( '<b>Project 15</b> Description.', 'motojuice' ) ); ?></div>
-				<div class="imgDescription" id="imgDesc15"><?php printf( __( '<b>Project 16</b> Description.', 'motojuice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc0"><?php printf( __( '<b>Project 1</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc1"><?php printf( __( '<b>Project 2</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc2"><?php printf( __( '<b>Project 3</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc3"><?php printf( __( '<b>Project 4</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc4"><?php printf( __( '<b>Project 5</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc5"><?php printf( __( '<b>Project 6</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc6"><?php printf( __( '<b>Project 7</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc7"><?php printf( __( '<b>Project 8</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc8"><?php printf( __( '<b>Project 9</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc9"><?php printf( __( '<b>Project 10</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc10"><?php printf( __( '<b>Project 11</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc11"><?php printf( __( '<b>Project 12</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc12"><?php printf( __( '<b>Project 13</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc13"><?php printf( __( '<b>Project 14</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc14"><?php printf( __( '<b>Project 15</b> Description.', 'moto-juice' ) ); ?></div>
+				<div class="imgDescription" id="imgDesc15"><?php printf( __( '<b>Project 16</b> Description.', 'moto-juice' ) ); ?></div>
 			</div>
 
 			<div class="mainDescription" id="imgDescMain"></div>
-			<div class="secondDescription" id="imgDescSecond"><?php printf( __( 'Welcome!', 'motojuice' ) ); ?></div>
+			<div class="secondDescription" id="imgDescSecond"><?php printf( __( 'Welcome!', 'moto-juice' ) ); ?></div>
 
 			<div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php _e( 'Search', 'twentyfourteen' ); ?></a>

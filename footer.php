@@ -16,22 +16,22 @@
 
 			<?php get_sidebar( 'footer' ); ?>
 
-			<a class="rss-sign" href="<?php bloginfo('atom_url'); ?>" title="<?php printf( __( 'RSS Atom Feed', 'motojuice' ) ); ?>" target="_blank">
-				<span><?php printf( __( 'RSS Atom', 'motojuice' ) ); ?></span>
+			<a class="rss-sign" href="<?php bloginfo('atom_url'); ?>" title="<?php printf( __( 'RSS Atom Feed', 'moto-juice' ) ); ?>" target="_blank">
+				<span><?php printf( __( 'RSS Atom', 'moto-juice' ) ); ?></span>
 			</a><!-- .rss-sign -->
 
 			<div class="copyright-sign">
-				<?php printf( __( 'Copyright © 2010-%s. All Rights Reserved', 'motojuice' ), date('Y') ); ?>
+				<?php printf( __( 'Copyright (c) 2010-%s. All Rights Reserved', 'moto-juice' ), date('Y') ); ?>
 			</div><!--.copyright-sign-->
 
 			<div class="design-sign">
-				<?php printf( __( 'Designed by ', 'motojuice' ) ); ?>
-				<a href="<?php echo esc_url( __( 'https://exlmoto.ru/', 'motojuice' ) ); ?>"><?php printf( __( 'EXL', 'motojuice' ) ); ?></a>
+				<?php printf( __( 'Designed by ', 'moto-juice' ) ); ?>
+				<a href="<?php echo esc_url( __( 'https://exlmoto.ru/', 'moto-juice' ) ); ?>"><?php printf( __( 'EXL', 'moto-juice' ) ); ?></a>
 			</div><!--.design-sign-->
 
 			<div class="theme-sign">
-				<?php printf( __( 'Theme: ', 'motojuice' ) ); ?>
-				<a href="<?php echo esc_url( __( 'https://github.com/EXL/MotoJuice', 'motojuice' ) ); ?>"><?php printf( __( 'Moto Juice', 'motojuice' ) ); ?></a>
+				<?php printf( __( 'Theme: ', 'moto-juice' ) ); ?>
+				<a href="<?php echo esc_url( __( 'https://github.com/EXL/MotoJuice', 'moto-juice' ) ); ?>"><?php printf( __( 'Moto Juice', 'moto-juice' ) ); ?></a>
 			</div><!--.theme-sign-->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
