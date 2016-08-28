@@ -3097,7 +3097,7 @@ a.post-thumbnail:hover {
 	}
 
 	.logo-image {
-		content: url(images/header-logo-s.png);
+		height: 28px;
 	}
 
 	.site-header {
@@ -3193,7 +3193,7 @@ a.post-thumbnail:hover {
 	}
 
 	.logo-image {
-		content: url(images/header-logo-s.png);
+		height: 37px;
 	}
 
 	img {
@@ -3339,7 +3339,7 @@ a.post-thumbnail:hover {
 	}
 
 	.logo-image {
-		content: url(images/header-logo.png);
+		height: 48px;
 	}
 
 	img {
