@@ -1120,7 +1120,7 @@ a.post-thumbnail:hover {
 	font-weight: bold;
 	line-height: 1.0909090909;
 	margin-bottom: 5px;
-	margin: 15px 0 5px 0;
+	margin: 0px 0 5px 0;
 	text-transform: uppercase;
 }
 
@@ -3096,6 +3096,10 @@ a.post-thumbnail:hover {
 		display: none;
 	}
 
+	.logo-image {
+		content: url(images/header-logo-s.png);
+	}
+
 	.site-header {
 		height: 48px;
 	}
@@ -3186,6 +3190,10 @@ a.post-thumbnail:hover {
 
 	.site-header {
 		height: 48px;
+	}
+
+	.logo-image {
+		content: url(images/header-logo-s.png);
 	}
 
 	img {
@@ -3328,6 +3336,10 @@ a.post-thumbnail:hover {
 
 	.site-header {
 		height: 48px;
+	}
+
+	.logo-image {
+		content: url(images/header-logo.png);
 	}
 
 	img {
@@ -4550,6 +4562,10 @@ select {
 }
 
 /* Margins */
+.site-content {
+	margin-top: 15px;
+}
+
 .entry-header {
 	padding-bottom: 5px;
 }

@@ -39,7 +39,7 @@
 
 		<div class="header-main">
 			<a class="site-title" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/header-logo.png">
+				<img class="logo-image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/header-logo.png" height="48">
 			</a>
 
 			<div class="headerWidget" id="headerWidgetId">
