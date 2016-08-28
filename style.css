@@ -4544,6 +4544,7 @@ a.post-thumbnail:hover {
 /* Small Categories ComboBox */
 select {
 	font-size: 75%;
+	width: 110px;
 }
 
 /* Disable Caps */
