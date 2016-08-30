@@ -4583,7 +4583,7 @@ select {
 .rss-sign,
 .rss-sign:visited {
 	position: absolute;
-	margin-left: 26px;
+	margin-left: 6px;
 	margin-top: 4px;
 	color: white;
 }
@@ -4709,31 +4709,37 @@ select {
 
 /* Skin Widget */
 .skin-selector {
-	position: absolute;
+	position: relative;
+	display: inline-block;
+	float: right;
 	width: 16px;
 	margin-top: 4px;
-	margin-left: 6px;
+	margin-right: 6px;
 }
 
 .skinClass {
 	height: 10px;
 	width: 10px;
-	border: 1px solid;
+	border: 1px solid black;
 	margin-bottom: 2px;
 }
 
 #skinDefault {
-	background-color: orange;
+	background-color: #ff6600;
+	border: 1px solid white;
 }
 
 #skinOgre {
-	background-color: #b2c3a7;
+	background-color: #818e79;
+	border: 1px solid black;
 }
 
 #skinBlack {
-	background-color: black;
+	background-color: #444444;
+	border: 1px solid black;
 }
 
 #skinBlue {
-	background-color: blue;
+	background-color: #49708f;
+	border: 1px solid black;
 }

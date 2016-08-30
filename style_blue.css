@@ -114,7 +114,7 @@ body {
 }
 
 a {
-	color: #cc660f;
+	color: #1a0dab;
 	text-decoration: none;
 }
 
@@ -125,15 +125,11 @@ a:focus {
 a:hover,
 a:active {
 	outline: 0;
-}
-
-a:active,
-a:hover {
-	color: #993300;
+	color: #0000EE;
 }
 
 a:visited {
-	color: darkred;
+	color: #609;
 }
 
 h1,
@@ -469,13 +465,13 @@ hr {
  * to achieve a better experience. See https://core.trac.wordpress.org/ticket/25898.
  */
 ::selection {
-	background: #ffae2a;
+	background: #49708f;
 	color: #fff;
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #ffae2a;
+	background: #49708f;
 	color: #fff;
 	text-shadow: none;
 }
@@ -513,7 +509,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #f9d203;
+	background-color: #49708f;
 	border: 0;
 	border-radius: 2px;
 	color: #fff;
@@ -534,7 +530,7 @@ input[type="reset"]:hover,
 input[type="reset"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-	background-color: #ff6600;
+	background-color: #2fa9e2;
 	color: #fff;
 }
 
@@ -543,7 +539,7 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	background-color: #ff0000;
+	background-color: #0000AA;
 }
 
 .search-field {
@@ -856,7 +852,7 @@ span + .edit-link:before,
 }
 
 .site-header {
-	background-color: blue;
+	background-color: #6389a8;
 	max-width: 1366px;
 	position: relative;
 	width: 100%;
@@ -868,7 +864,7 @@ span + .edit-link:before,
 .header-main {
 	min-height: 48px;
 	padding: 0 10px;
-	background-color: blue;
+	background-color: #6389a8;
 }
 
 .site-title {
@@ -895,7 +891,7 @@ span + .edit-link:before,
 /* Search in the header */
 
 .search-toggle {
-	background-color: #f9d203;
+	background-color: #49708f;
 	cursor: pointer;
 	float: right;
 	height: 48px;
@@ -906,7 +902,7 @@ span + .edit-link:before,
 
 .search-toggle:hover,
 .search-toggle.active {
-	background-color: #ff6600;
+	background-color: #2fa9e2;
 }
 
 .search-toggle:before {
@@ -957,7 +953,7 @@ span + .edit-link:before,
 }
 
 .site-navigation li {
-	border-top: 1px solid #993300;
+	border-top: 1px solid #49708f;
 }
 
 .site-navigation ul ul {
@@ -972,7 +968,7 @@ span + .edit-link:before,
 }
 
 .site-navigation a:hover {
-	color: #ff6600;
+	color: #0000EE;
 }
 
 .site-navigation .current_page_item > a,
@@ -998,7 +994,7 @@ span + .edit-link:before,
 }
 
 .primary-navigation .nav-menu {
-	border-bottom: 1px solid #993300;
+	border-bottom: 1px solid #49708f;
 	display: none;
 }
 
@@ -1013,7 +1009,7 @@ span + .edit-link:before,
 /* Secondary Navigation */
 
 .secondary-navigation {
-	border-bottom: 1px solid #993300;
+	border-bottom: 1px solid #49708f;
 	font-size: 12px;
 	/*margin: 48px 0;*/
 }
@@ -1023,7 +1019,7 @@ span + .edit-link:before,
 }
 
 .menu-toggle {
-	background-color: #f9bc01;
+	background-color: #6389a8;
 	border-radius: 0;
 	cursor: pointer;
 	height: 48px;
@@ -1046,7 +1042,7 @@ span + .edit-link:before,
 .menu-toggle:active,
 .menu-toggle:focus,
 .menu-toggle:hover {
-	background-color: #ff6600;
+	background-color: #2fa9e2;
 }
 
 .menu-toggle:focus {
@@ -1129,7 +1125,7 @@ a.post-thumbnail:hover {
 }
 
 .entry-title a:hover {
-	color: #ff6600;
+	color: #0000EE;
 }
 
 .site-content .entry-header {
@@ -1161,7 +1157,7 @@ a.post-thumbnail:hover {
 }
 
 .entry-meta a:hover {
-	color: #ff6600;
+	color: #0000EE;
 }
 
 .sticky .entry-date {
@@ -1178,7 +1174,7 @@ a.post-thumbnail:hover {
 }
 
 .cat-links a:hover {
-	color: #ff6600;
+	color: #0000EE;
 }
 
 .byline {
@@ -1217,7 +1213,7 @@ a.post-thumbnail:hover {
 }
 
 .entry-meta .tag-links a:hover {
-	background-color: #ff6600;
+	background-color: #0000EE;
 	color: #fff;
 }
 
@@ -1234,7 +1230,7 @@ a.post-thumbnail:hover {
 }
 
 .entry-meta .tag-links a:hover:before {
-	border-right-color: #ff6600;
+	border-right-color: #0000EE;
 }
 
 .entry-meta .tag-links a:after {
@@ -1345,7 +1341,7 @@ a.post-thumbnail:hover {
 }
 
 .entry-content .edit-link a:hover {
-	color: #993300;
+	color: #49708f;
 }
 
 .entry-content .more-link {
@@ -1461,7 +1457,7 @@ a.post-thumbnail:hover {
 }
 
 .hentry .mejs-controls .mejs-button button:hover {
-	color: #ff6600;
+	color: #2fa9e2;
 }
 
 .content-sidebar .wp-playlist-item .wp-playlist-caption {
@@ -1498,8 +1494,8 @@ a.post-thumbnail:hover {
 }
 
 .page-links a:hover {
-	background: #993300;
-	border: 1px solid #993300;
+	background: #49708f;
+	border: 1px solid #49708f;
 	color: #fff;
 }
 
@@ -1709,7 +1705,7 @@ a.post-thumbnail:hover {
 
 .post-navigation a:hover,
 .image-navigation a:hover {
-	color: #993300;
+	color: #49708f;
 }
 
 /* Paging Navigation */
@@ -1739,11 +1735,11 @@ a.post-thumbnail:hover {
 }
 
 .paging-navigation .page-numbers.current {
-	border-top: 5px solid #ffae2a;
+	border-top: 5px solid #0000AA;
 }
 
 .paging-navigation a:hover {
-	border-top: 5px solid #ff6600;
+	border-top: 5px solid #0000EE;
 	color: black;
 }
 
@@ -1954,7 +1950,7 @@ a.post-thumbnail:hover {
 .comment-list .pingback a:hover,
 .comment-list .trackback a:hover,
 .comment-metadata a:hover {
-	color: #993300;
+	color: #49708f;
 }
 
 .comment-list article,
@@ -2108,7 +2104,7 @@ a.post-thumbnail:hover {
 }
 
 .comment-reply-title small a:hover {
-	color: #993300;
+	color: #49708f;
 }
 
 .comment-reply-title small a:before {
@@ -2147,9 +2143,9 @@ a.post-thumbnail:hover {
 
 #secondary {
 	display: none;
-	background-color: #f9bc01;
+	background-color: #6389a8;
 	border-top: 1px solid #000;
-	border-bottom: 1px solid #993300;
+	border-bottom: 1px solid #49708f;
 	clear: both;
 	/*color: rgba(255, 255, 255, 0.7);*/
 	margin-top: -1px;
@@ -2208,11 +2204,11 @@ a.post-thumbnail:hover {
 }
 
 .widget a {
-	color: #500000;
+	color: #040031;
 }
 
 .widget a:hover {
-	color: #ff6600;
+	color: #0000AA;
 }
 
 .widget h1,
@@ -2269,7 +2265,7 @@ a.post-thumbnail:hover {
 
 .widget pre,
 .widget fieldset {
-	border-color: #993300;
+	border-color: #49708f;
 }
 
 .widget code,
@@ -2314,7 +2310,7 @@ a.post-thumbnail:hover {
 .widget table,
 .widget th,
 .widget td {
-	border-color: #993300;
+	border-color: #49708f;
 }
 
 .widget table {
@@ -2326,7 +2322,7 @@ a.post-thumbnail:hover {
 }
 
 .widget hr {
-	background-color: #993300;
+	background-color: #49708f;
 }
 
 .widget p {
@@ -2336,7 +2332,7 @@ a.post-thumbnail:hover {
 .widget-area .widget input,
 .widget-area .widget textarea {
 	background-color: rgba(255, 255, 255, 0.1);
-	border-color: #993300;
+	border-color: #49708f;
 	color: #fff;
 	font-size: 16px;
 	padding: 1px 2px 2px 4px;
@@ -2364,7 +2360,7 @@ a.post-thumbnail:hover {
 .widget input[type="reset"]:focus,
 .widget input[type="submit"]:hover,
 .widget input[type="submit"]:focus {
-	background-color: #ff6600;
+	background-color: #2fa9e2;
 }
 
 .widget input[type="button"]:active,
@@ -2392,7 +2388,7 @@ a.post-thumbnail:hover {
 }
 
 .widget-title a:hover {
-	color: #ff6600;
+	color: #2fa9e2;
 }
 
 /* Calendar Widget*/
@@ -2427,7 +2423,7 @@ a.post-thumbnail:hover {
 }
 
 .widget_calendar tbody a:hover {
-	background-color: #ff6600;
+	background-color: #0000EE;
 }
 
 .widget_calendar tbody a:hover {
@@ -2446,7 +2442,7 @@ a.post-thumbnail:hover {
 /* Ephemera Widget*/
 
 .widget_twentyfourteen_ephemera > ol > li {
-	border-bottom: 1px solid #ff6600;
+	border-bottom: 1px solid #2fa9e2;
 	margin-bottom: 18px;
 	padding: 0;
 }
@@ -2479,7 +2475,7 @@ a.post-thumbnail:hover {
 }
 
 .widget_twentyfourteen_ephemera .entry-meta a:hover {
-	color: #ff6600;
+	color: #0000EE;
 }
 
 .widget_twentyfourteen_ephemera .entry-content ul,
@@ -2520,7 +2516,7 @@ a.post-thumbnail:hover {
 .widget_pages li,
 .widget_recent_comments li,
 .widget_recent_entries li {
-	border-top: 1px solid #993300;
+	border-top: 1px solid #49708f;
 	padding: 2px 0 3px;
 }
 
@@ -2538,7 +2534,7 @@ a.post-thumbnail:hover {
 .widget_categories li ul,
 .widget_nav_menu li ul,
 .widget_pages li ul {
-	border-top: 1px solid #993300;
+	border-top: 1px solid #49708f;
 	margin-top: 5px;
 }
 
@@ -2593,7 +2589,7 @@ a.post-thumbnail:hover {
 }
 
 .content-sidebar .widget a:hover {
-	color: #993300;
+	color: #49708f;
 }
 
 .content-sidebar .widget pre {
@@ -2666,7 +2662,7 @@ a.post-thumbnail:hover {
 .content-sidebar .widget input[type="reset"]:focus,
 .content-sidebar .widget input[type="submit"]:hover,
 .content-sidebar .widget input[type="submit"]:focus {
-	background-color: #ff6600;
+	background-color: #2fa9e2;
 }
 
 .content-sidebar .widget input[type="button"]:active,
@@ -2694,7 +2690,7 @@ a.post-thumbnail:hover {
 }
 
 .content-sidebar .widget .widget-title a:hover {
-	color: #993300;
+	color: #49708f;
 }
 
 /* List Style Widgets*/
@@ -2787,7 +2783,7 @@ a.post-thumbnail:hover {
 }
 
 .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
-	color: #ff6600;
+	color: #0000EE;
 }
 
 .content-sidebar.widget_twentyfourteen_ephemera blockquote cite {
@@ -2817,7 +2813,7 @@ a.post-thumbnail:hover {
 }
 
 .site-footer {
-	background-color: #f9bc01;
+	background-color: #6389a8;
 	font-size: 12px;
 	position: absolute;
 	width: 100%;
@@ -2836,11 +2832,11 @@ a.post-thumbnail:hover {
 }
 
 #supplementary + .site-info {
-	border-top: 1px solid #993300;
+	border-top: 1px solid #49708f;
 }
 
 .site-info a:hover {
-	color: #ff6600;
+	color: #0000EE;
 }
 
 
@@ -2902,7 +2898,7 @@ a.post-thumbnail:hover {
 }
 
 .featured-content a:hover {
-	color: #993300;
+	color: #49708f;
 }
 
 .featured-content .entry-meta {
@@ -2980,7 +2976,7 @@ a.post-thumbnail:hover {
 }
 
 .slider-control-paging a:hover:before {
-	background-color: #ff6600;
+	background-color: #0000EE;
 }
 
 .slider-control-paging .slider-active:before,
@@ -3748,7 +3744,7 @@ a.post-thumbnail:hover {
 	}
 
 	.site:before {
-		background-color: #f9bc01;
+		background-color: #6389a8;
 		content: "";
 		display: block;
 		height: 100%;
@@ -3792,7 +3788,7 @@ a.post-thumbnail:hover {
 	}
 
 	.secondary-navigation li {
-		border-top: 1px solid #993300;
+		border-top: 1px solid #49708f;
 		position: relative;
 	}
 
@@ -3821,7 +3817,7 @@ a.post-thumbnail:hover {
 
 	.secondary-navigation ul ul a:hover,
 	.secondary-navigation ul ul li.focus > a {
-		background-color: #ff6600;
+		background-color: #0000EE;
 	}
 
 	.secondary-navigation ul li:hover > ul,
@@ -3946,7 +3942,7 @@ a.post-thumbnail:hover {
 		font-weight: bold;
 		line-height: 1.6363636363;
 		margin-bottom: 2px;
-		color: #000000;
+		color: white;
 	}
 
 	.footer-sidebar .widget_twentyfourteen_ephemera .entry-title,
@@ -4111,13 +4107,13 @@ a.post-thumbnail:hover {
 
 	.primary-navigation li:hover > a,
 	.primary-navigation li.focus > a {
-		background-color: #ff6600;
+		background-color: #0000EE;
 		color: #fff;
 	}
 
 	.primary-navigation ul ul a:hover,
 	.primary-navigation ul ul li.focus > a {
-		background-color: #ff6600;
+		background-color: #0000EE;
 	}
 
 	.primary-navigation ul li:hover > ul,
@@ -4577,19 +4573,19 @@ select {
 .design-sign,
 .theme-sign {
 	text-align: center;
-	color: black;
+	color: white;
 }
 
 .rss-sign,
 .rss-sign:visited {
 	position: absolute;
-	margin-left: 26px;
+	margin-left: 6px;
 	margin-top: 4px;
 	color: white;
 }
 
 .rss-sign:hover {
-	color: #ff6600;
+	color: #0000AA;
 }
 
 .rss-sign span {
@@ -4613,12 +4609,12 @@ select {
 .design-sign a,
 .theme-sign a {
 	font-weight: bold;
-	color: #500000;
+	color: #f8d797;
 }
 
 .design-sign a:hover,
 .theme-sign a:hover {
-	color: darkred;
+	color: #0000AA;
 	text-decoration: underline;
 }
 
@@ -4651,7 +4647,7 @@ select {
 }
 
 .imgElem:hover {
-	outline: 1px solid #380000;
+	outline: 1px solid #0A0080;
 }
 
 .imgDescription {
@@ -4663,7 +4659,7 @@ select {
 	position: absolute;
 	top: 58px;
 	font-size: 0.85em;
-	color: black;
+	color: white;
 }
 
 .mainDescription {
@@ -4673,7 +4669,7 @@ select {
 }
 
 .mainDescription b {
-	color: #ad4646;
+	color: #f8d797;
 	font-weight: bold;
 }
 
@@ -4709,31 +4705,37 @@ select {
 
 /* Skin Widget */
 .skin-selector {
-	position: absolute;
+	position: relative;
+	display: inline-block;
+	float: right;
 	width: 16px;
 	margin-top: 4px;
-	margin-left: 6px;
+	margin-right: 6px;
 }
 
 .skinClass {
 	height: 10px;
 	width: 10px;
-	border: 1px solid;
+	border: 1px solid black;
 	margin-bottom: 2px;
 }
 
 #skinDefault {
-	background-color: orange;
+	background-color: #ff6600;
+	border: 1px solid black;
 }
 
 #skinOgre {
-	background-color: #b2c3a7;
+	background-color: #818e79;
+	border: 1px solid black;
 }
 
 #skinBlack {
-	background-color: black;
+	background-color: #444444;
+	border: 1px solid black;
 }
 
 #skinBlue {
-	background-color: blue;
+	background-color: #49708f;
+	border: 1px solid white;
 }
