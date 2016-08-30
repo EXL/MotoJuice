@@ -8,6 +8,12 @@
 
 var isPushed = false;
 
+function setCookie(key, value) {
+	var expires = new Date();
+	expires.setTime(expires.getTime() + (365 * 24 * 60 * 60 * 1000));
+	document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+}
+
 ( function( $ ) {
 	var body    = $( 'body' ),
 		_window = $( window ),
@@ -38,6 +44,24 @@ var isPushed = false;
 	jQuery('.imgElem').mouseleave(function() {
 		jQuery('.mainDescription').hide();
 		// console.log('out', $(this).attr('id').slice(-1));
+	});
+
+	// Switch Skins
+	jQuery("#skinDefault").click( function() {
+		setCookie('skin', 0);
+		location.reload();
+	});
+	jQuery("#skinOgre").click( function() {
+		setCookie('skin', 1);
+		location.reload();
+	});
+	jQuery("#skinBlack").click( function() {
+		setCookie('skin', 2);
+		location.reload();
+	});
+	jQuery("#skinBlue").click( function() {
+		setCookie('skin', 3);
+		location.reload();
 	});
 
 	// Enable menu toggle for small screens.

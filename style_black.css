@@ -856,19 +856,19 @@ span + .edit-link:before,
 }
 
 .site-header {
-	background-color: #f9bc01;
+	background-color: black;
 	max-width: 1366px;
 	position: relative;
 	width: 100%;
 	z-index: 4;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid white;
 	height: 140px;
 }
 
 .header-main {
 	min-height: 48px;
 	padding: 0 10px;
-	background-color: #f9bc01;
+	background-color: black;
 }
 
 .site-title {

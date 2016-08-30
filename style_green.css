@@ -856,7 +856,7 @@ span + .edit-link:before,
 }
 
 .site-header {
-	background-color: #f9bc01;
+	background-color: #b2c3a7;
 	max-width: 1366px;
 	position: relative;
 	width: 100%;
@@ -868,7 +868,7 @@ span + .edit-link:before,
 .header-main {
 	min-height: 48px;
 	padding: 0 10px;
-	background-color: #f9bc01;
+	background-color: #b2c3a7;
 }
 
 .site-title {

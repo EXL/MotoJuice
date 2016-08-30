@@ -16,6 +16,13 @@
 
 			<?php get_sidebar( 'footer' ); ?>
 
+			<div class="skin-selector">
+				<div class="skinClass" title="<?php printf( __( 'Orange Skin', 'moto-juice' ) ); ?>" id="skinDefault"></div>
+				<div class="skinClass" title="<?php printf( __( 'Green Skin', 'moto-juice' ) ); ?>" id="skinOgre"></div>
+				<div class="skinClass" title="<?php printf( __( 'Black Skin', 'moto-juice' ) ); ?>" id="skinBlack"></div>
+				<div class="skinClass" title="<?php printf( __( 'Blue Skin', 'moto-juice' ) ); ?>" id="skinBlue"></div>
+			</div>
+
 			<a class="rss-sign" href="<?php bloginfo('atom_url'); ?>" title="<?php printf( __( 'RSS Atom Feed', 'moto-juice' ) ); ?>" target="_blank">
 				<span><?php printf( __( 'RSS Atom', 'moto-juice' ) ); ?></span>
 			</a><!-- .rss-sign -->
