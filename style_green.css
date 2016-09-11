@@ -280,7 +280,7 @@ blockquote cite {
 
 blockquote strong,
 blockquote b {
-	font-weight: 400;
+	font-weight: bold;
 }
 
 small {
