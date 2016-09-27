@@ -18,9 +18,13 @@
 
 			<div class="skin-selector">
 				<div class="skinClass" title="<?php printf( __( 'Orange Skin', 'moto-juice' ) ); ?>" id="skinDefault"></div>
-				<div class="skinClass" title="<?php printf( __( 'Green Skin', 'moto-juice' ) ); ?>" id="skinOgre"></div>
-				<div class="skinClass" title="<?php printf( __( 'Black Skin', 'moto-juice' ) ); ?>" id="skinBlack"></div>
+				<div class="skinClass" title="<?php printf( __( 'Gray Skin', 'moto-juice' ) ); ?>" id="skinOgre"></div>
+				<div class="skinClass" title="<?php printf( __( 'Green Skin', 'moto-juice' ) ); ?>" id="skinGreen"></div>
 				<div class="skinClass" title="<?php printf( __( 'Blue Skin', 'moto-juice' ) ); ?>" id="skinBlue"></div>
+				<div class="skinClass" title="<?php printf( __( 'Yellow Skin', 'moto-juice' ) ); ?>" id="skinYellow"></div>
+				<div class="skinClass" title="<?php printf( __( 'Red Skin', 'moto-juice' ) ); ?>" id="skinRed"></div>
+				<div class="skinClass" title="<?php printf( __( 'Night Skin', 'moto-juice' ) ); ?>" id="skinNight"></div>
+				<div class="skinClass" title="<?php printf( __( 'Dark Skin', 'moto-juice' ) ); ?>" id="skinDark"></div>
 			</div>
 
 			<a class="rss-sign" href="<?php bloginfo('atom_url'); ?>" title="<?php printf( __( 'RSS Atom Feed', 'moto-juice' ) ); ?>" target="_blank">
@@ -28,7 +32,7 @@
 			</a><!-- .rss-sign -->
 
 			<div class="copyright-sign">
-				<?php printf( __( 'Copyright (c) 2010-%s. All Rights Reserved', 'moto-juice' ), date('Y') ); ?>
+				<?php printf( __( '(c) 2010-%s. All Rights Reserved', 'moto-juice' ), date('Y') ); ?>
 			</div><!--.copyright-sign-->
 
 			<div class="design-sign">
