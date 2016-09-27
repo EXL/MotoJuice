@@ -49,10 +49,6 @@
 			<div class="mainDescription" id="imgDescMain"></div>
 			<div class="secondDescription" id="imgDescSecond"><?php printf( __( 'Welcome!', 'moto-juice' ) ); ?></div>
 
-			<div class="search-toggle">
-				<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
-			</div>
-
 			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
 				<button class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></button>
 				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
