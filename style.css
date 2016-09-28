@@ -4676,13 +4676,23 @@ select {
 }
 
 /* Skin Widget */
+.skin-table {
+	margin-bottom: 0px;
+	border: none;
+	border-spacing: 0px;
+}
+
+.skin-table th, td {
+	border: none;
+}
+
 .skin-selector {
 	position: relative;
 	display: inline-block;
 	float: right;
-	width: 16px;
+	width: 35px;
 	margin-top: 4px;
-	margin-right: 6px;
+	margin-right: 2px;
 }
 
 .skinClass {

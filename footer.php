@@ -17,14 +17,24 @@
 			<?php get_sidebar( 'footer' ); ?>
 
 			<div class="skin-selector">
-				<div class="skinClass" title="<?php printf( __( 'Orange Skin', 'moto-juice' ) ); ?>" id="skinDefault"></div>
-				<div class="skinClass" title="<?php printf( __( 'Gray Skin', 'moto-juice' ) ); ?>" id="skinOgre"></div>
-				<div class="skinClass" title="<?php printf( __( 'Green Skin', 'moto-juice' ) ); ?>" id="skinGreen"></div>
-				<div class="skinClass" title="<?php printf( __( 'Blue Skin', 'moto-juice' ) ); ?>" id="skinBlue"></div>
-				<div class="skinClass" title="<?php printf( __( 'Yellow Skin', 'moto-juice' ) ); ?>" id="skinYellow"></div>
-				<div class="skinClass" title="<?php printf( __( 'Red Skin', 'moto-juice' ) ); ?>" id="skinRed"></div>
-				<div class="skinClass" title="<?php printf( __( 'Night Skin', 'moto-juice' ) ); ?>" id="skinNight"></div>
-				<div class="skinClass" title="<?php printf( __( 'Dark Skin', 'moto-juice' ) ); ?>" id="skinDark"></div>
+				<table class="skin-table" cellspacing="5" cellpadding="0">
+					<tr>
+						<td><div class="skinClass" title="<?php printf( __( 'Orange Skin', 'moto-juice' ) ); ?>" id="skinDefault"></div></td>
+						<td><div class="skinClass" title="<?php printf( __( 'Gray Skin', 'moto-juice' ) ); ?>" id="skinOgre"></div></td>
+					</tr>
+					<tr>
+						<td><div class="skinClass" title="<?php printf( __( 'Green Skin', 'moto-juice' ) ); ?>" id="skinGreen"></div></td>
+						<td><div class="skinClass" title="<?php printf( __( 'Blue Skin', 'moto-juice' ) ); ?>" id="skinBlue"></div></td>
+					</tr>
+					<tr>
+						<td><div class="skinClass" title="<?php printf( __( 'Yellow Skin', 'moto-juice' ) ); ?>" id="skinYellow"></div></td>
+						<td><div class="skinClass" title="<?php printf( __( 'Red Skin', 'moto-juice' ) ); ?>" id="skinRed"></div></td>
+					</tr>
+					<tr>
+						<td><div class="skinClass" title="<?php printf( __( 'Night Skin', 'moto-juice' ) ); ?>" id="skinNight"></div></td>
+						<td><div class="skinClass" title="<?php printf( __( 'Dark Skin', 'moto-juice' ) ); ?>" id="skinDark"></div></td>
+					</tr>
+				</table>
 			</div>
 
 			<a class="rss-sign" href="<?php bloginfo('atom_url'); ?>" title="<?php printf( __( 'RSS Atom Feed', 'moto-juice' ) ); ?>" target="_blank">
