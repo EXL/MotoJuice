@@ -122,13 +122,9 @@ a:focus {
 	outline: thin dotted;
 }
 
-a:hover,
-a:active {
-	outline: 0;
-}
-
 a:active,
 a:hover {
+	outline: 0;
 	color: #993300;
 }
 
@@ -190,7 +186,7 @@ abbr[title] {
 
 b,
 strong {
-	font-weight: 700;
+	font-weight: bold;
 }
 
 cite,
@@ -257,7 +253,7 @@ q:after {
 }
 
 blockquote {
-	color: #555555;
+	color: black;
 	font-size: 1.0em;
 	font-style: italic;
 	font-weight: 300;
