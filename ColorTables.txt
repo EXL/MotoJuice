@@ -1,0 +1,93 @@
+Color Table for CSS Themes
+
+=== Orange Default
+Image border and others:			#380000
+Background site:					#f5f5f5
+Text color:							black
+
+Link color:							#cc660f
+Link hover:							#993300
+Link visited:						darkred
+
+Blockquote color:					black
+
+Selections:							#ffae2a
+
+Button Color:						#FF9900
+Button Hover:						#ff6600
+Button Active:						#ff0000
+
+Placeholder Hints Color:			#939393
+
+Header Site Color:					#FF9900
+Header Main Color:					#FF9900
+
+Site Navigation Link Color:			#ffffff
+Site Navigation Link Hover:			#ff6600
+Site Navigation Link Active:		#500000
+Some Navigation Borders and li:		#993300
+
+Menu Button:						#E76B00
+Menu Button Text:					#ffffff
+Menu Button Action:					#ff6600
+
+Entry Title Link:					black
+Entry Title Hover:					#ff6600
+Entry Title Background:				#ffffff
+
+Entry Meta:							#767676
+Entry Meta Link:					#767676
+Entry Meta Hover:					#ff6600
+Entry Meta Background:				#ffffff
+
+Categories:							black
+Categories Hover:					#ff6600
+
+Background Content:					#ffffff
+
+Post Navigation Meta:				#767676
+Post Navigation Hover:				#993300
+
+Page Navigation Border Active:		#ff9900
+Page Navigation Border Hover:		#ff6600
+
+Taxonomy Description:				#767676
+
+Comment Author Name:				black
+Comment Metadata and Info:			#767676
+Comment Link Hover:					#993300
+Comment-Reply Color:				black
+Comment-Reply Hover:				#993300
+Comment Author Avatar Border:		#380000
+
+Required?:							darkred
+
+Secondary:							#FF9900
+
+Content Sidebar:					#767676
+
+Widget Link Color:					#500000
+Widget Link Hover:					#ffffff
+Widget Borders:						#993300
+Widget Button:						#E76B00
+Widget Button Hover:				#ff6600
+Widget Button Active:				#ff0000
+Widget Title Link:					#ffffff
+Widget Title Link Hover:			#ff6600
+
+Footer Color:						#FF9900
+Footer Site Info:					#ff6600
+Footer Text:						black
+Footer Sign Link:					#500000
+Footer Sign Link Hover:				darkred
+RSS Icon Hover:						#ff6600
+RSS Icon:							#ffffff
+
+Blockquote Border:					#fbc851
+
+Desc Main/Second Color:				black
+Desc Main B:						#ad4646
+
+Secondary Blocks:					#FF9900
+
+Widget Breaker Border:				black
