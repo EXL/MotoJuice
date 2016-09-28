@@ -830,6 +830,7 @@ span + .edit-link:before,
 	background-color: #fff;
 	max-width: 1366px;
 	min-height: 700px;
+	min-width: 300px;
 	position: relative;
 }
 
@@ -3105,6 +3106,20 @@ a.post-thumbnail:hover {
 
 	img {
 		border: none;
+	}
+
+	.archive-header,
+	.comments-area,
+	.image-navigation,
+	.page-header,
+	.page-content,
+	.post-navigation,
+	.site-content .entry-content,
+	.site-content .entry-summary,
+	.site-content .entry-header,
+	.site-content footer.entry-meta {
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	.list-view .site-content .post-thumbnail {
