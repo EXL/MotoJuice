@@ -503,6 +503,14 @@ function twentyfourteen_wp_title( $title, $sep ) {
 }
 add_filter( 'wp_title', 'twentyfourteen_wp_title', 10, 2 );
 
+function move_comment_field( $fields ) {
+    $comment_field = $fields['comment'];
+    unset( $fields['comment'] );
+    $fields['comment'] = $comment_field;
+    return $fields;
+}
+add_filter( 'comment_form_fields', 'move_comment_field' );
+
 // Implement Custom Header features.
 require get_template_directory() . '/inc/custom-header.php';
 
