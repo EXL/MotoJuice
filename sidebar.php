@@ -7,6 +7,7 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
+<div id="sec-block"></div>
 <div id="secondary">
 	<?php if ( has_nav_menu( 'secondary' ) ) : ?>
 	<nav role="navigation" class="navigation site-navigation secondary-navigation">

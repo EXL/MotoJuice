@@ -6,7 +6,8 @@
  *
  */
 
-var isPushed = false;
+var isPushedMenu = false;
+var isPushedSideBar = false;
 
 function setCookie(key, value) {
 	var expires = new Date();
@@ -64,6 +65,18 @@ function setCookie(key, value) {
 		location.reload();
 	});
 
+	function hideSideBar() {
+		$('#secondary').hide();
+		$('#sec-block').hide();
+		$('#content').css('margin-left', '0px');
+	}
+
+	function showSideBar() {
+		$('#secondary').show();
+		$('#sec-block').show();
+		$('#content').css('margin-left', '130px');
+	}
+
 	// Enable menu toggle for small screens.
 	( function() {
 		if ( ! nav.length || ! button.length ) {
@@ -77,14 +90,24 @@ function setCookie(key, value) {
 		}
 
 		button.on( 'click.twentyfourteen', function() {
-			isPushed = !isPushed;
-			nav.toggleClass( 'toggled-on' );
-			if ( nav.hasClass( 'toggled-on' ) ) {
-				$( this ).attr( 'aria-expanded', 'true' );
-				menu.attr( 'aria-expanded', 'true' );
+			var width = Math.max( $(window).width(), window.innerWidth);
+			if (width < 1008) {
+				isPushedMenu = !isPushedMenu;
+				nav.toggleClass( 'toggled-on' );
+				if ( nav.hasClass( 'toggled-on' ) ) {
+					$( this ).attr( 'aria-expanded', 'true' );
+					menu.attr( 'aria-expanded', 'true' );
+				} else {
+					$( this ).attr( 'aria-expanded', 'false' );
+					menu.attr( 'aria-expanded', 'false' );
+				}
 			} else {
-				$( this ).attr( 'aria-expanded', 'false' );
-				menu.attr( 'aria-expanded', 'false' );
+				isPushedSideBar = !isPushedSideBar;
+				if (isPushedSideBar) {
+					hideSideBar();
+				} else {
+					showSideBar();
+				}
 			}
 		} );
 	} )();
@@ -190,12 +213,18 @@ function setCookie(key, value) {
 		if ( width < 1008 ) {
 			button.attr( 'aria-expanded', 'false' );
 			menu.attr( 'aria-expanded', 'false' );
+			hideSideBar();
+			isPushedSideBar = true;
 			//button.attr( 'aria-controls', 'primary-menu2' );
 		} else {
-			if (isPushed) {
+			if (isPushedMenu) {
 				nav.toggleClass( 'toggled-on' );
-				console.log('isPushed!')
-				isPushed = false;
+				// console.log('isPushedMenu!')
+				isPushedMenu = false;
+			}
+			if (isPushedSideBar) {
+				showSideBar();
+				isPushedSideBar = false;
 			}
 			button.removeAttr( 'aria-expanded' );
 			menu.removeAttr( 'aria-expanded' );

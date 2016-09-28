@@ -1022,7 +1022,7 @@ span + .edit-link:before,
 }
 
 .menu-toggle {
-	background-color: #f9d203;
+	background-color: #E76B00;
 	border-radius: 0;
 	cursor: pointer;
 	height: 48px;
@@ -1049,9 +1049,8 @@ span + .edit-link:before,
 }
 
 .menu-toggle:focus {
-	outline: 1px dotted;
+	outline: none;
 }
-
 
 /**
  * 6.0 Content
@@ -1403,7 +1402,7 @@ a.post-thumbnail:hover {
 
 .hentry .mejs-overlay-button:before {
 	-webkit-font-smoothing: antialiased;
-	content: '\f452';
+	content: "\f452";
 	display: inline-block;
 	font: normal 16px/1.125 Genericons;
 	position: absolute;
@@ -1424,15 +1423,15 @@ a.post-thumbnail:hover {
 }
 
 .hentry .mejs-playpause-button.mejs-play button:before {
-	content: '\f452';
+	content: "\f452";
 }
 
 .hentry .mejs-playpause-button.mejs-pause button:before {
-	content: '\f448';
+	content: "\f448";
 }
 
 .hentry .mejs-volume-button.mejs-mute button:before {
-	content: '\f109';
+	content: "\f109";
 	font-size: 20px;
 	position: absolute;
 	top: -2px;
@@ -1440,18 +1439,18 @@ a.post-thumbnail:hover {
 }
 
 .hentry .mejs-volume-button.mejs-unmute button:before {
-	content: '\f109';
+	content: "\f109";
 	left: 0;
 	position: absolute;
 	top: 0;
 }
 
 .hentry .mejs-fullscreen-button button:before {
-	content: '\f474';
+	content: "\f474";
 }
 
 .hentry .mejs-fullscreen-button.mejs-unfullscreen button:before {
-	content: '\f406';
+	content: "\f406";
 }
 
 .hentry .mejs-overlay:hover .mejs-overlay-button {
@@ -3708,7 +3707,7 @@ a.post-thumbnail:hover {
 		width: 29.04761904%;
 	}
 
-	.site:before {
+	#sec-block {
 		z-index: 2;
 		display: block;
 		position: absolute;
@@ -3716,7 +3715,7 @@ a.post-thumbnail:hover {
 		border-right: 1px solid black;
 	}
 
-	.site:before {
+	#sec-block {
 		background-color: #FF9900;
 		content: "";
 		display: block;
@@ -4020,9 +4019,8 @@ a.post-thumbnail:hover {
 		text-transform: uppercase;
 	}
 
-	.primary-navigation .menu-toggle {
-		display: none;
-		padding: 0;
+	.primary-navigation .menu-toggle::before {
+		content: "\f453";
 	}
 
 	.primary-navigation .nav-menu {
@@ -4567,7 +4565,7 @@ select {
 }
 
 .rss-sign::after {
-	content: '\f413';
+	content: "\f413";
 	-webkit-font-smoothing: antialiased;
 	font: normal 48px/1.125 Genericons;
 }
