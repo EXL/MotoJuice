@@ -284,7 +284,7 @@ blockquote cite {
 
 blockquote strong,
 blockquote b {
-	font-weight: 400;
+	font-weight: bold;
 }
 
 small {
@@ -512,7 +512,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #f9d203;
+	background-color: #f9bc01;
 	border: 0;
 	border-radius: 2px;
 	color: #fff;
@@ -3723,6 +3723,16 @@ a.post-thumbnail:hover {
 		width: 29.04761904%;
 	}
 
+	.menu-toggle:active,
+	.menu-toggle:focus {
+		background-color: #E76B00;
+	}
+
+	.menu-toggle:hover {
+		background-color: #ff6600;
+	}
+
+
 	#sec-block {
 		z-index: 2;
 		display: block;
@@ -4748,4 +4758,5 @@ select {
 #next-post {
 	float: right;
 	text-align: right;
+	margin-left: 10px;
 }
