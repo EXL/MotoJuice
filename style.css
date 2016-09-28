@@ -1667,8 +1667,11 @@ a.post-thumbnail:hover {
 	-moz-hyphens:    auto;
 	-ms-hyphens:     auto;
 	border-top: 1px solid rgba(0, 0, 0, 0.6);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.6);
 	hyphens:         auto;
 	word-wrap: break-word;
+	width: 100%;
+	display: inline-block;
 }
 
 .post-navigation,
@@ -1681,9 +1684,8 @@ a.post-thumbnail:hover {
 .post-navigation a,
 .image-navigation .previous-image,
 .image-navigation .next-image {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.6);
 	padding: 5px 0 6px;
-	width: 100%;
+	display: inline-block;
 }
 
 .post-navigation .meta-nav {
@@ -1698,7 +1700,6 @@ a.post-thumbnail:hover {
 .post-navigation a,
 .image-navigation a {
 	color: black;
-	display: block;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.7142857142;
@@ -4719,4 +4720,10 @@ select {
 #skinBlue {
 	background-color: #49708f;
 	border: 1px solid black;
+}
+
+/* Hacks */
+#next-post {
+	float: right;
+	text-align: right;
 }

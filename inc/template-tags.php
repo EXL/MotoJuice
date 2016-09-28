@@ -89,7 +89,7 @@ function twentyfourteen_post_nav() {
 				previous_post_link( '%link', __( '<span class="meta-nav">Published In</span>%title', 'twentyfourteen' ) );
 			else :
 				previous_post_link( '%link', __( '<span class="meta-nav">Previous Post</span>%title', 'twentyfourteen' ) );
-				next_post_link( '%link', __( '<span class="meta-nav">Next Post</span>%title', 'twentyfourteen' ) );
+				next_post_link( '<span id="next-post">%link</span>', __( '<span class="meta-nav">Next Post</span>%title', 'twentyfourteen' ) );
 			endif;
 			?>
 		</div><!-- .nav-links -->
