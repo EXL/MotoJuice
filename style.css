@@ -2821,7 +2821,7 @@ a.post-thumbnail:hover {
 	width: 100%;
 	top: 100%;
 	z-index: 3;
-	border-top: 1px solid black;
+	outline: 1px solid black;
 	min-height: 60px;
 }
 
@@ -4509,6 +4509,7 @@ a.post-thumbnail:hover {
 #page {
 	margin-left: auto;
 	margin-right: auto;
+	outline: 1px solid black;
 }
 
 /* Small Categories ComboBox */
