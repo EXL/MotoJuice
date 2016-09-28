@@ -1914,7 +1914,6 @@ a.post-thumbnail:hover {
 
 .comment-reply-title,
 .comments-title {
-	font: 900 16px/1.5 Lato, sans-serif;
 	margin: 0;
 	text-transform: uppercase;
 }
@@ -4752,6 +4751,10 @@ select {
 .comment-form-email,
 .comment-form-url {
 	display: inline-block;
+}
+
+#reply-title {
+	margin-top: 10px;
 }
 
 /* Hacks */

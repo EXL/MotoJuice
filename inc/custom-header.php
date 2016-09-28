@@ -106,7 +106,7 @@ function twentyfourteen_admin_header_style() {
 		min-height: 48px;
 	}
 	#headimg h1 {
-		font-family: Lato, sans-serif;
+		font-family: sans-serif;
 		font-size: 18px;
 		line-height: 48px;
 		margin: 0 0 0 30px;
