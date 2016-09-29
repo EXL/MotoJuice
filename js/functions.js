@@ -81,6 +81,11 @@ function setCookie(key, value) {
 		location.reload();
 	});
 
+	// Click to the sidebar to top of page
+	jQuery("#sec-block").click( function() {
+		$("html, body").animate({ scrollTop: 0 }, "slow");
+	});
+
 	function hideSideBar() {
 		$('#secondary').hide();
 		$('#sec-block').hide();
