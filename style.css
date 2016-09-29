@@ -967,7 +967,7 @@ span + .edit-link:before,
 }
 
 /**
- * 6.2 Entry Header
+ * 6.1 Entry Header
  * -----------------------------------------------------------------------------
  */
 
@@ -997,7 +997,7 @@ span + .edit-link:before,
 
 
 /**
- * 6.3 Entry Meta
+ * 6.2 Entry Meta
  * -----------------------------------------------------------------------------
  */
 
@@ -1052,7 +1052,7 @@ span + .edit-link:before,
 }
 
 /**
- * 6.4 Entry Content
+ * 6.3 Entry Content
  * -----------------------------------------------------------------------------
  */
 
@@ -1156,7 +1156,7 @@ span + .edit-link:before,
 
 
 /**
- * 6.7 Post/Image/Paging Navigation
+ * 6.4 Post/Image/Paging Navigation
  * -----------------------------------------------------------------------------
  */
 
@@ -1239,7 +1239,7 @@ span + .edit-link:before,
 }
 
 /**
- * 6.9 Archives
+ * 6.5 Archives
  * -----------------------------------------------------------------------------
  */
 
@@ -1270,7 +1270,7 @@ span + .edit-link:before,
 }
 
 /**
- * 6.11 404 Page
+ * 6.6 404 Page
  * -----------------------------------------------------------------------------
  */
 
@@ -1284,7 +1284,7 @@ span + .edit-link:before,
 
 
 /**
- * 6.12 Full-width
+ * 6.7 Full-width
  * -----------------------------------------------------------------------------
  */
 
@@ -1294,7 +1294,7 @@ span + .edit-link:before,
 
 
 /**
- * 6.13 Singular
+ * 6.8 Singular
  * -----------------------------------------------------------------------------
  */
 
@@ -1304,7 +1304,7 @@ span + .edit-link:before,
 
 
 /**
- * 6.14 Comments
+ * 6.10 Comments
  * -----------------------------------------------------------------------------
  */
 
@@ -1878,7 +1878,7 @@ span + .edit-link:before,
 }
 
 /**
- * 11.0 Media Queries
+ * 9.0 Media Queries
  * -----------------------------------------------------------------------------
  */
 
@@ -2460,10 +2460,14 @@ span + .edit-link:before,
 		border: 0;
 		clear: none;
 		float: left;
-		/*margin: 0 0 0 -100%;
-		min-height: 100vh;*/
 		width: 120px;
 		position: absolute;
+	}
+
+	/* Archives ComboBox in SideBar */
+	select {
+		font-size: 75%;
+		width: 110px;
 	}
 
 	.primary-sidebar {
@@ -3022,19 +3026,16 @@ span + .edit-link:before,
 	}
 }
 
-/* === User Definitions === */
+/**
+ * 10.0 User Definitions
+ * -----------------------------------------------------------------------------
+ */
 
 /* Center page content */
 #page {
 	margin-left: auto;
 	margin-right: auto;
 	outline: 1px solid black;
-}
-
-/* Small Categories ComboBox */
-select {
-	font-size: 75%;
-	width: 110px;
 }
 
 /* Margins */
