@@ -1,6 +1,5 @@
 Color Table for CSS Themes
 
-=== Orange Default
 Image border and others:			#380000
 Background site:					#f5f5f5
 Text color:							black
@@ -59,8 +58,7 @@ Comment Link Hover:					#993300
 Comment-Reply Color:				black
 Comment-Reply Hover:				#993300
 Comment Author Avatar Border:		#380000
-
-Required?:							darkred
+Required Fields:					darkred
 
 Secondary:							#FF9900
 
