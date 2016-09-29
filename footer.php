@@ -19,19 +19,19 @@
 			<div class="skin-selector">
 				<table class="skin-table" cellspacing="5" cellpadding="0">
 					<tr>
-						<td><div class="skinClass" title="<?php printf( __( 'Orange Skin', 'moto-juice' ) ); ?>" id="skinDefault"></div></td>
+						<td><div class="skinClass" title="<?php printf( __( 'Blue Skin', 'moto-juice' ) ); ?>" id="skinDefault"></div></td>
 						<td><div class="skinClass" title="<?php printf( __( 'Gray Skin', 'moto-juice' ) ); ?>" id="skinOgre"></div></td>
 					</tr>
 					<tr>
 						<td><div class="skinClass" title="<?php printf( __( 'Green Skin', 'moto-juice' ) ); ?>" id="skinGreen"></div></td>
-						<td><div class="skinClass" title="<?php printf( __( 'Blue Skin', 'moto-juice' ) ); ?>" id="skinBlue"></div></td>
+						<td><div class="skinClass" title="<?php printf( __( 'Orange Skin', 'moto-juice' ) ); ?>" id="skinOrange"></div></td>
 					</tr>
 					<tr>
 						<td><div class="skinClass" title="<?php printf( __( 'Yellow Skin', 'moto-juice' ) ); ?>" id="skinYellow"></div></td>
-						<td><div class="skinClass" title="<?php printf( __( 'Red Skin', 'moto-juice' ) ); ?>" id="skinRed"></div></td>
+						<td><div class="skinClass" title="<?php printf( __( 'Light Skin', 'moto-juice' ) ); ?>" id="skinLight"></div></td>
 					</tr>
 					<tr>
-						<td><div class="skinClass" title="<?php printf( __( 'Night Skin', 'moto-juice' ) ); ?>" id="skinNight"></div></td>
+						<td><div class="skinClass" title="<?php printf( __( 'Violet Skin', 'moto-juice' ) ); ?>" id="skinViolet"></div></td>
 						<td><div class="skinClass" title="<?php printf( __( 'Dark Skin', 'moto-juice' ) ); ?>" id="skinDark"></div></td>
 					</tr>
 				</table>

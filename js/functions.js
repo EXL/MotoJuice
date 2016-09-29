@@ -56,12 +56,28 @@ function setCookie(key, value) {
 		setCookie('skin', 1);
 		location.reload();
 	});
-	jQuery("#skinBlack").click( function() {
+	jQuery("#skinGreen").click( function() {
 		setCookie('skin', 2);
 		location.reload();
 	});
-	jQuery("#skinBlue").click( function() {
+	jQuery("#skinOrange").click( function() {
 		setCookie('skin', 3);
+		location.reload();
+	});
+	jQuery("#skinYellow").click( function() {
+		setCookie('skin', 4);
+		location.reload();
+	});
+	jQuery("#skinLight").click( function() {
+		setCookie('skin', 5);
+		location.reload();
+	});
+	jQuery("#skinViolet").click( function() {
+		setCookie('skin', 6);
+		location.reload();
+	});
+	jQuery("#skinDark").click( function() {
+		setCookie('skin', 7);
 		location.reload();
 	});
 
