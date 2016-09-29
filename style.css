@@ -3225,13 +3225,13 @@ span + .edit-link:before,
 	border: 1px solid white;
 }
 
-#skinYellow {
-	background-color: #FFFF66;
+#skinLight {
+	background-color: #B0C4DE;
 	border: 1px solid black;
 }
 
-#skinLight {
-	background-color: #B0C4DE;
+#skinYellow {
+	background-color: #FFFF00;
 	border: 1px solid black;
 }
 

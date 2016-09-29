@@ -27,8 +27,8 @@
 						<td><div class="skinClass" title="<?php printf( __( 'Orange Skin', 'moto-juice' ) ); ?>" id="skinOrange"></div></td>
 					</tr>
 					<tr>
-						<td><div class="skinClass" title="<?php printf( __( 'Yellow Skin', 'moto-juice' ) ); ?>" id="skinYellow"></div></td>
 						<td><div class="skinClass" title="<?php printf( __( 'Light Skin', 'moto-juice' ) ); ?>" id="skinLight"></div></td>
+						<td><div class="skinClass" title="<?php printf( __( 'Yellow Skin', 'moto-juice' ) ); ?>" id="skinYellow"></div></td>
 					</tr>
 					<tr>
 						<td><div class="skinClass" title="<?php printf( __( 'Violet Skin', 'moto-juice' ) ); ?>" id="skinViolet"></div></td>

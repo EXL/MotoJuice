@@ -64,11 +64,11 @@ function setCookie(key, value) {
 		setCookie('skin', 3);
 		location.reload();
 	});
-	jQuery("#skinYellow").click( function() {
+	jQuery("#skinLight").click( function() {
 		setCookie('skin', 4);
 		location.reload();
 	});
-	jQuery("#skinLight").click( function() {
+	jQuery("#skinYellow").click( function() {
 		setCookie('skin', 5);
 		location.reload();
 	});
