@@ -1587,7 +1587,7 @@ span + .edit-link:before,
 	margin-bottom: 5px;
 	width: 100%;
 	word-wrap: break-word;
-	color: black;
+	color: #500000;
 }
 
 .widget a {
@@ -3060,6 +3060,7 @@ span + .edit-link:before,
 	right: 0;
 	text-align: center;
 	margin-top: 3px;
+	color: black;
 }
 
 .rss-sign,
@@ -3067,12 +3068,12 @@ span + .edit-link:before,
 	position: absolute;
 	margin-left: 6px;
 	margin-top: 4px;
-	color: #ff6600;
+	color: #ffffff;
 	z-index: 9;
 }
 
 .rss-sign:hover {
-	color: #ffffff;
+	color: #ff6600;
 }
 
 .rss-sign span {
@@ -3147,7 +3148,6 @@ span + .edit-link:before,
 .mainDescription b {
 	color: #ad4646;
 	font-weight: bold;
-	color: black;
 }
 
 .secondDescription {
