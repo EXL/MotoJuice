@@ -226,7 +226,7 @@ blockquote {
 	margin-bottom: 5px;
 	margin-left: 5px;
 	padding-left: 5px;
-	border-left: 2px solid #fbc851;
+	border-left: 2px solid darkred;
 }
 
 blockquote cite,
@@ -467,8 +467,8 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	background-color: #aaaaaa;
-	border: none;
-	color: #fff;
+	border: 1px solid black;
+	color: black;
 	font-size: 12px;
 	font-weight: 700;
 	padding: 10px 30px 11px;
@@ -486,7 +486,7 @@ input[type="reset"]:hover,
 input[type="reset"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-	background-color: darkred;
+	background-color: #666666;
 }
 
 button:active,
@@ -851,7 +851,7 @@ span + .edit-link:before,
 }
 
 .site-navigation li {
-	border-top: 1px solid #993300;
+	border-top: 1px solid black;
 }
 
 .site-navigation ul ul {
@@ -891,7 +891,7 @@ span + .edit-link:before,
 }
 
 .primary-navigation .nav-menu {
-	border-bottom: 1px solid #993300;
+	border-bottom: 1px solid black;
 	display: none;
 }
 
@@ -906,7 +906,7 @@ span + .edit-link:before,
 /* Secondary Navigation */
 
 .secondary-navigation {
-	border-bottom: 1px solid #993300;
+	border-bottom: 1px solid black;
 	font-size: 12px;
 }
 
@@ -915,7 +915,7 @@ span + .edit-link:before,
 }
 
 .menu-toggle {
-	background-color: #E76B00;
+	background-color: #666666;
 	border-radius: 0;
 	cursor: pointer;
 	height: 48px;
@@ -1730,7 +1730,7 @@ span + .edit-link:before,
 .widget input[type="reset"],
 .widget input[type="submit"] {
 	background-color: #aaaaaa;
-	border: 0;
+	border: 1px solid black;
 	font-size: 12px;
 	padding: 5px 15px 4px;
 	color: black;
@@ -1742,7 +1742,7 @@ span + .edit-link:before,
 .widget input[type="reset"]:focus,
 .widget input[type="submit"]:hover,
 .widget input[type="submit"]:focus {
-	background-color: darkred;
+	background-color: #666666;
 }
 
 .widget input[type="button"]:active,
@@ -1765,7 +1765,7 @@ span + .edit-link:before,
 
 .widget-title,
 .widget-title a {
-	color: #ffffff;
+	color: black;
 }
 
 .widget-title a:hover {
@@ -1782,7 +1782,7 @@ span + .edit-link:before,
 .widget_pages li,
 .widget_recent_comments li,
 .widget_recent_entries li {
-	border-top: 1px solid #993300;
+	border-top: 1px solid black;
 	padding: 2px 0 3px;
 }
 
@@ -1800,7 +1800,7 @@ span + .edit-link:before,
 .widget_categories li ul,
 .widget_nav_menu li ul,
 .widget_pages li ul {
-	border-top: 1px solid #993300;
+	border-top: 1px solid black;
 	margin-top: 5px;
 }
 
@@ -1873,7 +1873,7 @@ span + .edit-link:before,
 }
 
 #supplementary + .site-info {
-	border-top: 1px solid #993300;
+	border-top: 1px solid black;
 }
 
 .site-info a:hover {
@@ -2428,7 +2428,7 @@ span + .edit-link:before,
 
 	.menu-toggle:active,
 	.menu-toggle:focus {
-		background-color: #E76B00;
+		background-color: #666666;
 	}
 
 	.menu-toggle:hover {
@@ -2493,7 +2493,7 @@ span + .edit-link:before,
 	}
 
 	.secondary-navigation li {
-		border-top: 1px solid #993300;
+		border-top: 1px solid black;
 		position: relative;
 	}
 
@@ -2502,7 +2502,7 @@ span + .edit-link:before,
 	}
 
 	.secondary-navigation ul ul {
-		background-color: #E76B00;
+		background-color: #666666;
 		position: absolute;
 		top: 0;
 		left: -999em;
@@ -2516,7 +2516,7 @@ span + .edit-link:before,
 
 	.secondary-navigation li:hover > a,
 	.secondary-navigation li.focus > a {
-		background-color: #E76B00;
+		background-color: #666666;
 		color: #fff;
 	}
 
@@ -2761,7 +2761,7 @@ span + .edit-link:before,
 	}
 
 	.primary-navigation ul ul {
-		background-color: #E76B00;
+		background-color: #666666;
 		float: left;
 		margin: 0;
 		position: absolute;
@@ -3217,12 +3217,12 @@ span + .edit-link:before,
 
 #skinOgre {
 	background-color: #B5B8B1;
-	border: 1px solid black;
+	border: 1px solid white;
 }
 
 #skinGreen {
 	background-color: #4CBB17;
-	border: 1px solid white;
+	border: 1px solid black;
 }
 
 #skinOrange {
