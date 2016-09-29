@@ -41,19 +41,21 @@
 				<span><?php printf( __( 'RSS Atom', 'moto-juice' ) ); ?></span>
 			</a><!-- .rss-sign -->
 
-			<div class="copyright-sign">
-				<?php printf( __( '(c) 2010-%s. All Rights Reserved', 'moto-juice' ), date('Y') ); ?>
-			</div><!--.copyright-sign-->
+			<div class="footer-sign">
+				<div class="copyright-sign">
+					<?php printf( __( '(c) 2010-%s. All Rights Reserved', 'moto-juice' ), date('Y') ); ?>
+				</div><!--.copyright-sign-->
 
-			<div class="design-sign">
-				<?php printf( __( 'Designed by ', 'moto-juice' ) ); ?>
-				<a href="<?php echo esc_url( __( 'https://exlmoto.ru/', 'moto-juice' ) ); ?>"><?php printf( __( 'EXL', 'moto-juice' ) ); ?></a>
-			</div><!--.design-sign-->
+				<div class="design-sign">
+					<?php printf( __( 'Designed by ', 'moto-juice' ) ); ?>
+					<a href="<?php echo esc_url( __( 'https://exlmoto.ru/', 'moto-juice' ) ); ?>"><?php printf( __( 'EXL', 'moto-juice' ) ); ?></a>
+				</div><!--.design-sign-->
 
-			<div class="theme-sign">
-				<?php printf( __( 'Theme: ', 'moto-juice' ) ); ?>
-				<a href="<?php echo esc_url( __( 'https://github.com/EXL/MotoJuice', 'moto-juice' ) ); ?>"><?php printf( __( 'Moto Juice', 'moto-juice' ) ); ?></a>
-			</div><!--.theme-sign-->
+				<div class="theme-sign">
+					<?php printf( __( 'Theme: ', 'moto-juice' ) ); ?>
+					<a href="<?php echo esc_url( __( 'https://github.com/EXL/MotoJuice', 'moto-juice' ) ); ?>"><?php printf( __( 'Moto Juice', 'moto-juice' ) ); ?></a>
+				</div><!--.theme-sign-->
+			</div><!--.footer-sign-->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
 

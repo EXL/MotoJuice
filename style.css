@@ -3048,11 +3048,15 @@ span + .edit-link:before,
 }
 
 /* Footer signs */
-.copyright-sign,
-.design-sign,
-.theme-sign {
+
+.footer-sign {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 	text-align: center;
-	color: black;
+	margin-top: 3px;
 }
 
 .rss-sign,
@@ -3075,14 +3079,6 @@ span + .edit-link:before,
 	content: "\f413";
 	-webkit-font-smoothing: antialiased;
 	font: normal 48px/1.125 Genericons;
-}
-
-.copyright-sign {
-	margin-top: 3px;
-}
-
-.theme-sign {
-	margin-bottom: 3px;
 }
 
 .design-sign a,
