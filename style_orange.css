@@ -927,6 +927,7 @@ span + .edit-link:before,
 	right: 0;
 	text-align: center;
 	width: 48px;
+	border: none;
 }
 
 .menu-toggle:before {
@@ -1586,6 +1587,7 @@ span + .edit-link:before,
 	margin-bottom: 5px;
 	width: 100%;
 	word-wrap: break-word;
+	color: black;
 }
 
 .widget a {
@@ -1731,6 +1733,7 @@ span + .edit-link:before,
 	border: 0;
 	font-size: 12px;
 	padding: 5px 15px 4px;
+	color: black;
 }
 
 .widget input[type="button"]:hover,
@@ -3064,12 +3067,12 @@ span + .edit-link:before,
 	position: absolute;
 	margin-left: 6px;
 	margin-top: 4px;
-	color: #ffffff;
+	color: #ff6600;
 	z-index: 9;
 }
 
 .rss-sign:hover {
-	color: #ff6600;
+	color: #ffffff;
 }
 
 .rss-sign span {
@@ -3144,6 +3147,7 @@ span + .edit-link:before,
 .mainDescription b {
 	color: #ad4646;
 	font-weight: bold;
+	color: black;
 }
 
 .secondDescription {
