@@ -13,7 +13,7 @@
 			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_orange.css\" title=\"orange\" />\n";
 			break;
 		case 4:
-			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_light.css\" title=\"light\" />\n";
+			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_blue.css\" title=\"blue\" />\n";
 			break;
 		case 5:
 			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_yellow.css\" title=\"yellow\" />\n";

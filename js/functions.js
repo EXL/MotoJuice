@@ -64,7 +64,7 @@ function setCookie(key, value) {
 		setCookie('skin', 3);
 		location.reload();
 	});
-	jQuery("#skinLight").click( function() {
+	jQuery("#skinBlue").click( function() {
 		setCookie('skin', 4);
 		location.reload();
 	});

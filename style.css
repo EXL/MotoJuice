@@ -466,7 +466,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #6389a8;
+	background-color: #2982cc;
 	border: 1px solid black;
 	color: #fff;
 	font-size: 12px;
@@ -804,7 +804,7 @@ span + .edit-link:before,
 }
 
 .site-header {
-	background-color: #6389a8;
+	background-color: #2982cc;
 	max-width: 1366px;
 	position: relative;
 	width: 100%;
@@ -816,7 +816,7 @@ span + .edit-link:before,
 .header-main {
 	min-height: 48px;
 	padding: 0 10px;
-	background-color: #6389a8;
+	background-color: #2982cc;
 }
 
 .site-title {
@@ -1532,7 +1532,7 @@ span + .edit-link:before,
 
 #secondary {
 	display: none;
-	background-color: #6389a8;
+	background-color: #2982cc;
 	clear: both;
 	margin-top: -1px;
 	padding: 0 10px;
@@ -1854,7 +1854,7 @@ span + .edit-link:before,
 }
 
 .site-footer {
-	background-color: #6389a8;
+	background-color: #2982cc;
 	font-size: 12px;
 	position: absolute;
 	width: 100%;
@@ -2445,7 +2445,7 @@ span + .edit-link:before,
 	}
 
 	#sec-block {
-		background-color: #6389a8;
+		background-color: #2982cc;
 		content: "";
 		display: block;
 		height: 100%;
@@ -3211,7 +3211,7 @@ span + .edit-link:before,
 }
 
 #skinDefault {
-	background-color: #6699CC;
+	background-color: #B0C4DE;
 	border: 1px solid white;
 }
 
@@ -3230,8 +3230,8 @@ span + .edit-link:before,
 	border: 1px solid black;
 }
 
-#skinLight {
-	background-color: #B0C4DE;
+#skinBlue {
+	background-color: #6699CC;
 	border: 1px solid black;
 }
 
