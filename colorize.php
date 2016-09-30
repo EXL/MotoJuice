@@ -4,25 +4,25 @@
 		case 0:
 			break;
 		case 1:
-			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_gray.css\" title=\"gray\">";
+			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_gray.css\" title=\"gray\" />\n";
 			break;
 		case 2:
-			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_green.css\" title=\"green\">";
+			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_green.css\" title=\"green\" />\n";
 			break;
 		case 3:
-			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_orange.css\" title=\"orange\">";
+			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_orange.css\" title=\"orange\" />\n";
 			break;
 		case 4:
-			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_light.css\" title=\"light\">";
+			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_light.css\" title=\"light\" />\n";
 			break;
 		case 5:
-			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_yellow.css\" title=\"yellow\">";
+			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_yellow.css\" title=\"yellow\" />\n";
 			break;
 		case 6:
-			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_violet.css\" title=\"violet\">";
+			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_violet.css\" title=\"violet\" />\n";
 			break;
 		case 7:
-			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_dark.css\" title=\"dark\">";
+			echo "<link rel=\"stylesheet\" media=\"all\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_dark.css\" title=\"dark\" />\n";
 			break;
 	}
 ?>
