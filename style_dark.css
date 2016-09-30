@@ -436,13 +436,13 @@ hr {
  * to achieve a better experience. See https://core.trac.wordpress.org/ticket/25898.
  */
 ::selection {
-	background: #338fff;
+	background: black;
 	color: #fff;
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #338fff;
+	background: black;
 	color: #fff;
 	text-shadow: none;
 }
@@ -458,7 +458,7 @@ hr {
 input,
 textarea {
 	border: 1px solid black;
-	color: black;
+	color: #babdb6;
 	background-color: #2e3436;
 }
 
@@ -1489,7 +1489,7 @@ span + .edit-link:before,
 }
 
 .required {
-	color: darkred;
+	color: #01F814;
 }
 
 .comment-reply-title small a {
