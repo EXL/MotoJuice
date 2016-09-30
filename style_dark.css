@@ -476,7 +476,7 @@ input[type="reset"],
 input[type="submit"] {
 	background-color: #272c2d;
 	border: 1px solid black;
-	color: #fff;
+	color: #babdb6;
 	font-size: 12px;
 	font-weight: 700;
 	padding: 10px 30px 11px;
@@ -841,7 +841,7 @@ span + .edit-link:before,
 
 .site-title a,
 .site-title a:hover {
-	color: #fff;
+	color: #babdb6;
 	display: block;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -1681,7 +1681,7 @@ span + .edit-link:before,
 }
 
 .widget blockquote cite {
-	color: #fff;
+	color: #babdb6;
 	font-size: 14px;
 	line-height: 1.2857142857;
 }
@@ -1741,7 +1741,7 @@ span + .edit-link:before,
 	border: 1px solid black;
 	font-size: 12px;
 	padding: 5px 15px 4px;
-	color: #ffffff;
+	color: #babdb6;
 }
 
 .widget input[type="button"]:hover,

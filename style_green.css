@@ -872,7 +872,7 @@ span + .edit-link:before,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	color: green;
+	color: #ffffff;
 	font-weight: bold;
 }
 
