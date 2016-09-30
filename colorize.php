@@ -19,10 +19,10 @@
 			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_yellow.css\" title=\"yellow\" />\n";
 			break;
 		case 6:
-			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_violet.css\" title=\"violet\" />\n";
+			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_solarized.css\" title=\"solarized\" />\n";
 			break;
 		case 7:
-			echo "<link rel=\"stylesheet\" media=\"all\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_dark.css\" title=\"dark\" />\n";
+			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"" . get_stylesheet_directory_uri() . "/style_dark.css\" title=\"dark\" />\n";
 			break;
 	}
 ?>

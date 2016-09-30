@@ -31,7 +31,7 @@
 						<td><div class="skinClass" title="<?php printf( __( 'Yellow Skin', 'moto-juice' ) ); ?>" id="skinYellow"></div></td>
 					</tr>
 					<tr>
-						<td><div class="skinClass" title="<?php printf( __( 'Violet Skin', 'moto-juice' ) ); ?>" id="skinViolet"></div></td>
+						<td><div class="skinClass" title="<?php printf( __( 'Solarized Skin', 'moto-juice' ) ); ?>" id="skinSolarized"></div></td>
 						<td><div class="skinClass" title="<?php printf( __( 'Dark Skin', 'moto-juice' ) ); ?>" id="skinDark"></div></td>
 					</tr>
 				</table>
