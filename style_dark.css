@@ -3362,6 +3362,7 @@ span + .edit-link:before,
 	color: #626262 !important;
 }
 .crayon-theme-classic .crayon-button {
+	background-color: #555555 !important;
 }
 .crayon-theme-classic .crayon-button:hover {
 	background-color: #bcbcbc !important;
