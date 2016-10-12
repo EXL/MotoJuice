@@ -67,7 +67,7 @@ input,
 select,
 textarea {
 	color: #babdb6;
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-family: Verdana, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5;
@@ -109,7 +109,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
 	clear: both;
 	font-weight: bold;
 	margin: 12px 0 12px;
@@ -183,7 +183,7 @@ tt,
 var,
 samp,
 pre {
-	font-family: monospace, serif;
+	font-family: Consolas, "Courier New", Courier, Monaco, monospace;
 	font-size: 1.0em;
 	-webkit-hyphens: none;
 	-moz-hyphens:    none;
@@ -1740,7 +1740,7 @@ span + .edit-link:before,
 	background-color: #555753;
 	border: 1px solid black;
 	font-size: 12px;
-	padding: 5px 15px 4px;
+	padding: 5px 15px 6px;
 	color: #babdb6;
 }
 
@@ -1765,7 +1765,7 @@ span + .edit-link:before,
 }
 
 .widget .widget-title {
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: bold;
 	line-height: 1.7142857142;
 	margin: 15px 0 2px 0;
@@ -2555,7 +2555,7 @@ span + .edit-link:before,
 
 	.footer-sidebar .widget,
 	.primary-sidebar .widget {
-		font-size: 12px;
+		font-size: 11px;
 		line-height: 1.5;
 	}
 
@@ -2636,7 +2636,7 @@ span + .edit-link:before,
 	.footer-sidebar .widget textarea,
 	.primary-sidebar .widget input,
 	.primary-sidebar .widget textarea {
-		font-size: 12px;
+		font-size: 11px;
 		padding: 3px 2px 4px 4px;
 	}
 
@@ -2646,7 +2646,7 @@ span + .edit-link:before,
 	.primary-sidebar .widget input[type="button"],
 	.primary-sidebar .widget input[type="reset"],
 	.primary-sidebar .widget input[type="submit"] {
-		padding: 5px 15px 4px;
+		padding: 5px 15px 6px;
 	}
 
 	.footer-sidebar .widget .widget-title,
@@ -3143,7 +3143,7 @@ span + .edit-link:before,
 .secondDescription {
 	position: absolute;
 	top: 58px;
-	font-size: 0.85em;
+	font-size: 10px;
 	color: #babdb6;
 }
 
