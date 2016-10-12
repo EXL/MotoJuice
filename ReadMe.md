@@ -23,12 +23,18 @@ cd ~/Deploy/MotoJuice/
 git archive master --prefix='moto-juice/' --format=zip > MotoJuice.zip
 ```
 
+## Translate
+
+You can translate Moto Juice theme with the [Poedit](https://poedit.net/) program to any language.
+
 ## Install
 
 Go to the WordPress Control Panel and choose "Appearance" -> "Themes", click "Add New" button, then click "Upload Theme" button, choose MotoJuice.zip archive and click "Install Now".
 
 You can also get latest ready-to-install package MotoJuice.zip from the [releases](https://github.com/EXL/MotoJuice/releases) section.
 
+Please don't forget replace `CORRECT-UA-ID` from analyticstracking.php with your Google Analytics ID.
+
 ## More information
 
-Please read [Creating Guide (In Russian)](http://exlmoto.ru/moto-juice) for more info about creating Moto Juice theme for WordPress.
+Please read [Creating Guide (In Russian)](http://exlmoto.ru/moto-juice-redesign) for more info about creating Moto Juice theme for WordPress.
