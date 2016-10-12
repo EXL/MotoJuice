@@ -2470,7 +2470,7 @@ span + .edit-link:before,
 
 	/* Archives ComboBox in SideBar */
 	select {
-		font-size: 75%;
+		font-size: 80%;
 		width: 110px;
 	}
 
