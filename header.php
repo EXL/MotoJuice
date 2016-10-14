@@ -54,7 +54,6 @@
 				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
 				<div id="primary-menu" class="nav-menu" aria-expanded="true">
 					<?php dynamic_sidebar( 'sidebar-1' ); ?>
-					<!--?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?-->
 				</div>
 			</nav>
 		</div>

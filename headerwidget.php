@@ -45,8 +45,12 @@
 		}
 	?>
 
-	<!-- Please use the PoEdit program for changing the descriptions. Don't edit this labels manually!
-			PoEdit site: https://poedit.net/ -->
+	<?php 	/*
+			 * Please use the PoEdit program for changing the descriptions. Don't edit this labels manually!
+			 * PoEdit site: https://poedit.net/
+			 */
+	?>
+
 	<div class="imgDescription" id="imgDesc0"><?php printf( __( '<b>Project 1</b> Description.', 'moto-juice' ) ); ?></div>
 	<div class="imgDescription" id="imgDesc1"><?php printf( __( '<b>Project 2</b> Description.', 'moto-juice' ) ); ?></div>
 	<div class="imgDescription" id="imgDesc2"><?php printf( __( '<b>Project 3</b> Description.', 'moto-juice' ) ); ?></div>
