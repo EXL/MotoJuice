@@ -19,20 +19,20 @@
 			<div class="skin-selector">
 				<table class="skin-table" cellspacing="5" cellpadding="0">
 					<tr>
-						<td><div class="skinClass" title="<?php printf( __( 'Light Skin', 'moto-juice' ) ); ?>" id="skinDefault"></div></td>
-						<td><div class="skinClass" title="<?php printf( __( 'Gray Skin', 'moto-juice' ) ); ?>" id="skinOgre"></div></td>
+						<td><div name="Skin0" class="skinClass" title="<?php printf( __( 'Light Skin', 'moto-juice' ) ); ?>" id="skinDefault"></div></td>
+						<td><div name="Skin1" class="skinClass" title="<?php printf( __( 'Gray Skin', 'moto-juice' ) ); ?>" id="skinOgre"></div></td>
 					</tr>
 					<tr>
-						<td><div class="skinClass" title="<?php printf( __( 'Green Skin', 'moto-juice' ) ); ?>" id="skinGreen"></div></td>
-						<td><div class="skinClass" title="<?php printf( __( 'Orange Skin', 'moto-juice' ) ); ?>" id="skinOrange"></div></td>
+						<td><div name="Skin2" class="skinClass" title="<?php printf( __( 'Green Skin', 'moto-juice' ) ); ?>" id="skinGreen"></div></td>
+						<td><div name="Skin3" class="skinClass" title="<?php printf( __( 'Orange Skin', 'moto-juice' ) ); ?>" id="skinOrange"></div></td>
 					</tr>
 					<tr>
-						<td><div class="skinClass" title="<?php printf( __( 'Blue Skin', 'moto-juice' ) ); ?>" id="skinBlue"></div></td>
-						<td><div class="skinClass" title="<?php printf( __( 'Yellow Skin', 'moto-juice' ) ); ?>" id="skinYellow"></div></td>
+						<td><div name="Skin4" class="skinClass" title="<?php printf( __( 'Blue Skin', 'moto-juice' ) ); ?>" id="skinBlue"></div></td>
+						<td><div name="Skin5" class="skinClass" title="<?php printf( __( 'Yellow Skin', 'moto-juice' ) ); ?>" id="skinYellow"></div></td>
 					</tr>
 					<tr>
-						<td><div class="skinClass" title="<?php printf( __( 'Solarized Skin', 'moto-juice' ) ); ?>" id="skinSolarized"></div></td>
-						<td><div class="skinClass" title="<?php printf( __( 'Dark Skin', 'moto-juice' ) ); ?>" id="skinDark"></div></td>
+						<td><div name="Skin6" class="skinClass" title="<?php printf( __( 'Solarized Skin', 'moto-juice' ) ); ?>" id="skinSolarized"></div></td>
+						<td><div name="Skin7" class="skinClass" title="<?php printf( __( 'Dark Skin', 'moto-juice' ) ); ?>" id="skinDark"></div></td>
 					</tr>
 				</table>
 			</div>

@@ -15,6 +15,11 @@ function setCookie(key, value) {
 	document.cookie = key + '=' + value + ';path=/' + ';expires=' + expires.toUTCString();
 }
 
+function changeSkinCallback(i) {
+	setCookie('skin', i);
+	location.reload();
+}
+
 ( function( $ ) {
 	var body    = $( 'body' ),
 		_window = $( window ),
@@ -48,37 +53,9 @@ function setCookie(key, value) {
 	});
 
 	// Switch Skins
-	jQuery("#skinDefault").click( function() {
-		setCookie('skin', 0);
-		location.reload();
-	});
-	jQuery("#skinOgre").click( function() {
-		setCookie('skin', 1);
-		location.reload();
-	});
-	jQuery("#skinGreen").click( function() {
-		setCookie('skin', 2);
-		location.reload();
-	});
-	jQuery("#skinOrange").click( function() {
-		setCookie('skin', 3);
-		location.reload();
-	});
-	jQuery("#skinBlue").click( function() {
-		setCookie('skin', 4);
-		location.reload();
-	});
-	jQuery("#skinYellow").click( function() {
-		setCookie('skin', 5);
-		location.reload();
-	});
-	jQuery("#skinSolarized").click( function() {
-		setCookie('skin', 6);
-		location.reload();
-	});
-	jQuery("#skinDark").click( function() {
-		setCookie('skin', 7);
-		location.reload();
+	jQuery('.skinClass').click(function() {
+		var i = $(this).attr('name').slice(-1);
+		changeSkinCallback(i);
 	});
 
 	// Click to the sidebar to top of page
