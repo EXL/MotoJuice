@@ -15,11 +15,6 @@ function setCookie(key, value) {
 	document.cookie = key + '=' + value + ';path=/' + ';expires=' + expires.toUTCString();
 }
 
-function changeSkinCallback(i) {
-	setCookie('skin', i);
-	location.reload();
-}
-
 ( function( $ ) {
 	var body    = $( 'body' ),
 		_window = $( window ),
@@ -55,7 +50,8 @@ function changeSkinCallback(i) {
 	// Switch Skins
 	jQuery('.skinClass').click(function() {
 		var i = $(this).attr('name').slice(-1);
-		changeSkinCallback(i);
+		setCookie('skin', i);
+		location.reload();
 	});
 
 	// Click to the sidebar to top of page
