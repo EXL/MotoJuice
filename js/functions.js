@@ -224,7 +224,7 @@ function setCookie(key, value) {
 	 */
 	function onResizeARIA() {
 		// http://stackoverflow.com/a/8501499/2467443
-		var width = Math.max( $(window).width(), window.innerWidth);
+		var width = Math.max( $(window).width(), window.innerWidth );
 
 		// Hack for disable main description widget
 		if ( width < 1218 ) {
