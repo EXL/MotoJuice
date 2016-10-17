@@ -13,3 +13,5 @@ server {
 
 	...
 }
+
+Thanks *MultiformeIngegno* from http://wordpress.stackexchange.com/a/83174 for the hint.
