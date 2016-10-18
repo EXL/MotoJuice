@@ -36,15 +36,14 @@ function setCookie(key, value) {
 	jQuery('.widget a').css({ display: "block" });
 
 	// Show or Hide Image Widget description
+	// substring(7) because imgDescX
 	jQuery('.imgElem').mouseenter(function() {
-		jQuery('.mainDescription').html(jQuery('#imgDesc' + $(this).attr('id').slice(-1)).html());
+		jQuery('.mainDescription').html(jQuery('#imgDesc' + $(this).attr('id').substring(7)).html());
 		jQuery('.mainDescription').show();
-		// console.log('in', jQuery('#imgDesc' + $(this).attr('id').slice(-1)));
 	});
 
 	jQuery('.imgElem').mouseleave(function() {
 		jQuery('.mainDescription').hide();
-		// console.log('out', $(this).attr('id').slice(-1));
 	});
 
 	// Switch Skins
@@ -209,11 +208,9 @@ function setCookie(key, value) {
 			menu.attr( 'aria-expanded', 'false' );
 			hideSideBar();
 			isPushedSideBar = true;
-			//button.attr( 'aria-controls', 'primary-menu2' );
 		} else {
 			if (isPushedMenu) {
 				nav.toggleClass( 'toggled-on' );
-				// console.log('isPushedMenu!')
 				isPushedMenu = false;
 			}
 			if (isPushedSideBar) {
@@ -222,7 +219,6 @@ function setCookie(key, value) {
 			}
 			button.removeAttr( 'aria-expanded' );
 			menu.removeAttr( 'aria-expanded' );
-			//button.removeAttr( 'aria-controls' );
 		}
 	}
 
