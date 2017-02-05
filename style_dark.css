@@ -1513,7 +1513,7 @@ span + .edit-link:before,
 .comment-navigation {
 	font-size: 12px;
 	line-height: 2;
-	margin-bottom: 48px;
+	margin-bottom: 0px;
 }
 
 .comment-navigation .nav-next,
@@ -1527,7 +1527,7 @@ span + .edit-link:before,
 
 #comment-nav-above {
 	margin-top: 10px;
-	margin-bottom: 0;
+	margin-bottom: 0px;
 }
 
 
@@ -3268,6 +3268,11 @@ span + .edit-link:before,
 #reply-title,
 .comments-title {
 	margin-top: 10px;
+}
+
+.paginate-comments {
+	text-align: center;
+	font-size: 16px;
 }
 
 /* Hacks */
