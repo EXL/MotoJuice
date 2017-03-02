@@ -1,14 +1,14 @@
-# Copyright (C) 2016 EXL
+# Copyright (C) 2017 EXL
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
 "Project-Id-Version: Moto Juice 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/MotoJuice\n"
-"POT-Creation-Date: 2016-09-30 05:28:55+00:00\n"
+"POT-Creation-Date: 2017-03-02 15:03:55+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -60,19 +60,11 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:34 comments.php:52
+#: comments.php:34 comments.php:51
 msgid "Comment navigation"
 msgstr ""
 
-#: comments.php:35 comments.php:53
-msgid "&larr; Older Comments"
-msgstr ""
-
-#: comments.php:36 comments.php:54
-msgid "Newer Comments &rarr;"
-msgstr ""
-
-#: comments.php:59
+#: comments.php:57
 msgid "Comments are closed."
 msgstr ""
 
@@ -274,76 +266,80 @@ msgstr ""
 msgid "Show or hide menu"
 msgstr ""
 
-#: header.php:53
-msgid "Primary Menu"
-msgstr ""
-
 #: header.php:54
 msgid "Skip to content"
 msgstr ""
 
-#: headerwidget.php:50
-msgid "<b>Project 1</b> Description."
-msgstr ""
-
-#: headerwidget.php:51
-msgid "<b>Project 2</b> Description."
-msgstr ""
-
-#: headerwidget.php:52
-msgid "<b>Project 3</b> Description."
-msgstr ""
-
-#: headerwidget.php:53
-msgid "<b>Project 4</b> Description."
-msgstr ""
-
-#: headerwidget.php:54
-msgid "<b>Project 5</b> Description."
-msgstr ""
-
-#: headerwidget.php:55
-msgid "<b>Project 6</b> Description."
-msgstr ""
-
-#: headerwidget.php:56
-msgid "<b>Project 7</b> Description."
-msgstr ""
-
-#: headerwidget.php:57
-msgid "<b>Project 8</b> Description."
-msgstr ""
-
-#: headerwidget.php:58
-msgid "<b>Project 9</b> Description."
-msgstr ""
-
-#: headerwidget.php:59
-msgid "<b>Project 10</b> Description."
-msgstr ""
-
-#: headerwidget.php:60
-msgid "<b>Project 11</b> Description."
-msgstr ""
-
-#: headerwidget.php:61
-msgid "<b>Project 12</b> Description."
+#: headerwidget.php:5
+msgid "Go to All Projects Page"
 msgstr ""
 
 #: headerwidget.php:62
-msgid "<b>Project 13</b> Description."
+msgid "<b>Project 1</b> Description."
 msgstr ""
 
 #: headerwidget.php:63
-msgid "<b>Project 14</b> Description."
+msgid "<b>Project 2</b> Description."
 msgstr ""
 
 #: headerwidget.php:64
-msgid "<b>Project 15</b> Description."
+msgid "<b>Project 3</b> Description."
 msgstr ""
 
 #: headerwidget.php:65
+msgid "<b>Project 4</b> Description."
+msgstr ""
+
+#: headerwidget.php:66
+msgid "<b>Project 5</b> Description."
+msgstr ""
+
+#: headerwidget.php:67
+msgid "<b>Project 6</b> Description."
+msgstr ""
+
+#: headerwidget.php:68
+msgid "<b>Project 7</b> Description."
+msgstr ""
+
+#: headerwidget.php:69
+msgid "<b>Project 8</b> Description."
+msgstr ""
+
+#: headerwidget.php:70
+msgid "<b>Project 9</b> Description."
+msgstr ""
+
+#: headerwidget.php:71
+msgid "<b>Project 10</b> Description."
+msgstr ""
+
+#: headerwidget.php:72
+msgid "<b>Project 11</b> Description."
+msgstr ""
+
+#: headerwidget.php:73
+msgid "<b>Project 12</b> Description."
+msgstr ""
+
+#: headerwidget.php:74
+msgid "<b>Project 13</b> Description."
+msgstr ""
+
+#: headerwidget.php:75
+msgid "<b>Project 14</b> Description."
+msgstr ""
+
+#: headerwidget.php:76
+msgid "<b>Project 15</b> Description."
+msgstr ""
+
+#: headerwidget.php:77
 msgid "<b>Project 16</b> Description."
+msgstr ""
+
+#: headerwidget.php:78
+msgid "<b>Project 99</b> Description."
 msgstr ""
 
 #: image.php:66

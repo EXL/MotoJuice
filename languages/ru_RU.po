@@ -1,16 +1,16 @@
-# Copyright (C) 2016 EXL
+# Copyright (C) 2017 EXL
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
 "Project-Id-Version: Moto Juice 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/MotoJuice\n"
-"POT-Creation-Date: 2016-09-30 12:40+0000\n"
+"POT-Creation-Date: 2017-03-02 22:07+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-18 20:15+0000\n"
+"PO-Revision-Date: 2017-03-02 22:14+0700\n"
 "Language-Team: \n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.11\n"
 "Last-Translator: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
@@ -65,19 +65,11 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: comments.php:34 comments.php:52
+#: comments.php:34 comments.php:51
 msgid "Comment navigation"
 msgstr ""
 
-#: comments.php:35 comments.php:53
-msgid "&larr; Older Comments"
-msgstr ""
-
-#: comments.php:36 comments.php:54
-msgid "Newer Comments &rarr;"
-msgstr ""
-
-#: comments.php:59
+#: comments.php:57
 msgid "Comments are closed."
 msgstr ""
 
@@ -279,15 +271,15 @@ msgstr ""
 msgid "Show or hide menu"
 msgstr "Показать или скрыть меню"
 
-#: header.php:53
-msgid "Primary Menu"
-msgstr ""
-
 #: header.php:54
 msgid "Skip to content"
 msgstr ""
 
-#: headerwidget.php:50
+#: headerwidget.php:5
+msgid "Go to All Projects Page"
+msgstr "Прейти на страницу всех проектов"
+
+#: headerwidget.php:62
 msgid "<b>Project 1</b> Description."
 msgstr ""
 "Первой игрой, которую я портировал на Android OS, был <b>Spout</b>. Я "
@@ -295,7 +287,7 @@ msgstr ""
 "контекста на OpenGL и OpenGL ES. В движок <b>Spout</b> были добавлены "
 "некоторые улучшения, вроде сенсорного управления."
 
-#: headerwidget.php:51
+#: headerwidget.php:63
 msgid "<b>Project 2</b> Description."
 msgstr ""
 "В процессе портирования <b>Ken’s Labyrinth</b> на Android OS я решил не "
@@ -304,7 +296,7 @@ msgstr ""
 "поделился <b>Pickle</b>. В игру было добавлено сенсорное управление и "
 "лаунчер."
 
-#: headerwidget.php:52
+#: headerwidget.php:64
 msgid "<b>Project 3</b> Description."
 msgstr ""
 "Портирование игры <b>AstroSmash</b> с J2ME на Android OS позволило мне "
@@ -313,7 +305,7 @@ msgstr ""
 "<b>AstroSmash</b> была стандартной игрой во многих мобильных телефонах "
 "Motorola."
 
-#: headerwidget.php:53
+#: headerwidget.php:65
 msgid "<b>Project 4</b> Description."
 msgstr ""
 "Игра <b>Snooder 21</b> является моим ремейком популярного карточного "
@@ -321,7 +313,7 @@ msgstr ""
 "от Motorola, например, <b>C350</b> или <b>V150</b>. Игровые ресурсы были "
 "отрисованы в духе оригинала. Приложение использует канвас класса SurfaceView."
 
-#: headerwidget.php:54
+#: headerwidget.php:66
 msgid "<b>Project 5</b> Description."
 msgstr ""
 "Часы на кривых Безье <b>Bezier Clock</b> являются моей первой попыткой "
@@ -329,7 +321,7 @@ msgstr ""
 "реализовано в виде анимированных обоев для рабочего стола <b>KDE Plasma 5</"
 "b> и в виде standalone-приложения."
 
-#: headerwidget.php:55
+#: headerwidget.php:67
 msgid "<b>Project 6</b> Description."
 msgstr ""
 "Мой порт игрового движка <b>NXEngine</b> предназначен для запуска игры "
@@ -337,7 +329,7 @@ msgstr ""
 "MotoMAGX. Из основных улучшений: возможность вывода изображения на "
 "широкоформатный экран, оптимизация звука и поддержка русификации."
 
-#: headerwidget.php:56
+#: headerwidget.php:68
 msgid "<b>Project 7</b> Description."
 msgstr ""
 "Для конференции @motofan_ru в сервисе Telegram я написал бота <b>Гаечку</b>, "
@@ -345,41 +337,47 @@ msgstr ""
 "Благодаря патчам от <b>Zorge.R</b> она научилась делиться другой полезной "
 "информацией, например, котировками и доступностью игровых серверов."
 
-#: headerwidget.php:57
+#: headerwidget.php:69
 msgid "<b>Project 8</b> Description."
 msgstr ""
 
-#: headerwidget.php:58
+#: headerwidget.php:70
 msgid "<b>Project 9</b> Description."
 msgstr ""
 
-#: headerwidget.php:59
+#: headerwidget.php:71
 msgid "<b>Project 10</b> Description."
 msgstr ""
 
-#: headerwidget.php:60
+#: headerwidget.php:72
 msgid "<b>Project 11</b> Description."
 msgstr ""
 
-#: headerwidget.php:61
+#: headerwidget.php:73
 msgid "<b>Project 12</b> Description."
 msgstr ""
 
-#: headerwidget.php:62
+#: headerwidget.php:74
 msgid "<b>Project 13</b> Description."
 msgstr ""
 
-#: headerwidget.php:63
+#: headerwidget.php:75
 msgid "<b>Project 14</b> Description."
 msgstr ""
 
-#: headerwidget.php:64
+#: headerwidget.php:76
 msgid "<b>Project 15</b> Description."
 msgstr ""
 
-#: headerwidget.php:65
+#: headerwidget.php:77
 msgid "<b>Project 16</b> Description."
 msgstr ""
+
+#: headerwidget.php:78
+msgid "<b>Project 99</b> Description."
+msgstr ""
+"Перейти на <b>страницу сайта</b>, посвящённую всем актуальным проектам над "
+"которыми я работаю."
 
 #: image.php:66
 msgid "Previous Image"
