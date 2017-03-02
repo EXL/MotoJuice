@@ -3119,7 +3119,7 @@ span + .edit-link:before,
 /* Header Widget Settings */
 .headerWidget {
 	position: absolute;
-	right: 64px;
+	right: 28px;
 	top: 58px;
 }
 

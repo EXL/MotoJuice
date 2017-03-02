@@ -2,6 +2,14 @@
 	<?php
 		$imagesCount = 5;
 		$themeDir = get_stylesheet_directory_uri();
+		$allProjects = __( 'Go to All Projects Page', 'moto-juice' );
+
+		// Arrow
+		$arrw = "<a href=\"http://exlmoto.ru/projects/\" title=\"" . $allProjects . "\">" .
+					"<img class=\"imgElem\" id=\"imgElem99\" src=\"" . $themeDir . "/images/widget/arrow.png\" />" .
+				"</a>";
+		echo $arrw;
+
 		$imageLinks = array(
 			"<a href=\"http://exlmoto.ru/spout-droid/\" title=\"Spout\">" .
 				"<img class=\"imgElem\" id=\"imgElem0\" src=\"" . $themeDir . "/images/widget/0.png\" />" .
@@ -67,4 +75,5 @@
 	<div class="imgDescription" id="imgDesc13"><?php printf( __( '<b>Project 14</b> Description.', 'moto-juice' ) ); ?></div>
 	<div class="imgDescription" id="imgDesc14"><?php printf( __( '<b>Project 15</b> Description.', 'moto-juice' ) ); ?></div>
 	<div class="imgDescription" id="imgDesc15"><?php printf( __( '<b>Project 16</b> Description.', 'moto-juice' ) ); ?></div>
+	<div class="imgDescription" id="imgDesc99"><?php printf( __( '<b>Project 99</b> Description.', 'moto-juice' ) ); ?></div>
 </div>
