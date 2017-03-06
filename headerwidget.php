@@ -31,6 +31,9 @@
 			"</a>",
 			"<a href=\"http://exlmoto.ru/writing-telegram-bots/\" title=\"Gadget Hackwrench\">" .
 				"<img class=\"imgElem\" id=\"imgElem6\" src=\"" . $themeDir . "/images/widget/6.png\" />" .
+			"</a>",
+			"<a href=\"http://exlmoto.ru/new-updates-and-tools/#1\" title=\"Synergy Calls\">" .
+				"<img class=\"imgElem\" id=\"imgElem7\" src=\"" . $themeDir . "/images/widget/7.png\" />" .
 			"</a>"
 		);
 
