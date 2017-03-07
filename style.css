@@ -79,7 +79,7 @@ body {
 }
 
 a {
-	color: #1a0dab;
+	color: #0366d6;
 	text-decoration: none;
 }
 
@@ -90,11 +90,11 @@ a:focus {
 a:active,
 a:hover {
 	outline: 0;
-	color: #00008B;
+	color: #0051ad;
 }
 
 a:visited {
-	color: #609;
+	color: #909;
 }
 
 h1,
