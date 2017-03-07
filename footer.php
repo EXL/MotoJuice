@@ -48,12 +48,12 @@
 
 				<div class="design-sign">
 					<?php printf( __( 'Designed by ', 'moto-juice' ) ); ?>
-					<a href="<?php echo esc_url( __( 'https://exlmoto.ru/', 'moto-juice' ) ); ?>"><?php printf( __( 'EXL', 'moto-juice' ) ); ?></a>
+					<a href="<?php echo esc_url( __( 'http://exlmoto.ru/', 'moto-juice' ) ); ?>"><?php printf( __( 'EXL', 'moto-juice' ) ); ?></a>
 				</div><!--.design-sign-->
 
 				<div class="theme-sign">
 					<?php printf( __( 'Theme: ', 'moto-juice' ) ); ?>
-					<a href="<?php echo esc_url( __( 'https://github.com/EXL/MotoJuice', 'moto-juice' ) ); ?>"><?php printf( __( 'Moto Juice', 'moto-juice' ) ); ?></a>
+					<a href="<?php echo esc_url( __( 'https://github.com/EXL/MotoJuice', 'moto-juice' ) ); ?>" target="_blank"><?php printf( __( 'Moto Juice', 'moto-juice' ) ); ?></a>
 				</div><!--.theme-sign-->
 			</div><!--.footer-sign-->
 		</footer><!-- #colophon -->
