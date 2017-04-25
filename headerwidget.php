@@ -34,6 +34,9 @@
 			"</a>",
 			"<a href=\"http://exlmoto.ru/new-updates-and-tools/#1\" title=\"Synergy Calls\">" .
 				"<img class=\"imgElem\" id=\"imgElem7\" src=\"" . $themeDir . "/images/widget/7.png\" />" .
+			"</a>",
+			"<a href=\"http://exlmoto.ru/adamant-armor-affection-adventure-droid/\" title=\"Adamant Armor Affection Adventure\">" .
+				"<img class=\"imgElem\" id=\"imgElem8\" src=\"" . $themeDir . "/images/widget/8.png\" />" .
 			"</a>"
 		);
 
