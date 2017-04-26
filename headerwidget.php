@@ -29,7 +29,7 @@
 
 		// Arrow
 		$arrw = "<a href=\"http://exlmoto.ru/projects/\" title=\"" . $allProjects . "\">" .
-					"<img class=\"imgElem\" src=\"" . $themeDir . "/images/widget/arrow.png\" />" .
+					"<img class=\"imgElem\" id=\"arrowImg\" src=\"" . $themeDir . "/images/widget/arrow.png\" />" .
 				"</a>";
 		echo $arrw;
 

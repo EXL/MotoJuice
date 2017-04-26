@@ -3123,6 +3123,10 @@ span + .edit-link:before,
 	outline: 1px solid #8ae234;
 }
 
+#arrowImg {
+	margin-top: 5px;
+}
+
 .widgetBreaker {
 	position: absolute;
 	top: 48px;
