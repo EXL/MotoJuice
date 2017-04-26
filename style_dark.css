@@ -817,7 +817,7 @@ span + .edit-link:before,
 	width: 100%;
 	z-index: 4;
 	border-bottom: 1px solid black;
-	height: 140px;
+	height: 150px;
 }
 
 .header-main {
@@ -2949,7 +2949,7 @@ span + .edit-link:before,
 	}
 
 	.site-header {
-		height: 140px;
+		height: 150px;
 	}
 
 	img {
@@ -2989,7 +2989,7 @@ span + .edit-link:before,
 	}
 
 	.site-header {
-		height: 140px;
+		height: 150px;
 	}
 
 	img {
