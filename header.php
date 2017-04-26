@@ -46,9 +46,6 @@
 
 			<?php include_once("headerwidget.php") ?>
 
-			<div class="mainDescription" id="imgDescMain"></div>
-			<div class="secondDescription" id="imgDescSecond"><?php printf( __( 'Welcome!', 'moto-juice' ) ); ?></div>
-
 			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
 				<button class="menu-toggle" title="<?php printf( __( 'Show or hide menu', 'moto-juice' ) ); ?>"></button>
 				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>

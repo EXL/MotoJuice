@@ -35,17 +35,6 @@ function setCookie(key, value) {
 
 	jQuery('.widget a').css({ display: "block" });
 
-	// Show or Hide Image Widget description
-	// substring(7) because imgDescX
-	jQuery('.imgElem').mouseenter(function() {
-		jQuery('.mainDescription').html(jQuery('#imgDesc' + $(this).attr('id').substring(7)).html());
-		jQuery('.mainDescription').show();
-	});
-
-	jQuery('.imgElem').mouseleave(function() {
-		jQuery('.mainDescription').hide();
-	});
-
 	// Switch Skins
 	jQuery('.skinClass').click(function() {
 		var i = $(this).attr('name').slice(-1);
@@ -197,11 +186,6 @@ function setCookie(key, value) {
 	function onResizeARIA() {
 		// http://stackoverflow.com/a/8501499/2467443
 		var width = Math.max( $(window).width(), window.innerWidth );
-
-		// Hack for disable main description widget
-		if ( width < 1218 ) {
-			jQuery('.mainDescription').hide();
-		}
 
 		if ( width < 1008 ) {
 			button.attr( 'aria-expanded', 'false' );

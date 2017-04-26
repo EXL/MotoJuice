@@ -1,6 +1,6 @@
 <div class="headerWidget" id="headerWidgetId">
 	<?php
-		$imagesCount = 5;
+		$imagesCount = 3;
 		$themeDir = get_stylesheet_directory_uri();
 		$allProjects = __( 'Go to All Projects Page', 'moto-juice' );
 
