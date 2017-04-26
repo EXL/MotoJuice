@@ -817,7 +817,7 @@ span + .edit-link:before,
 	width: 100%;
 	z-index: 4;
 	border-bottom: 1px solid black;
-	height: 140px;
+	height: 130px;
 }
 
 .header-main {
@@ -2949,7 +2949,7 @@ span + .edit-link:before,
 	}
 
 	.site-header {
-		height: 140px;
+		height: 130px;
 	}
 
 	img {
@@ -2989,7 +2989,7 @@ span + .edit-link:before,
 	}
 
 	.site-header {
-		height: 140px;
+		height: 130px;
 	}
 
 	img {
@@ -3121,10 +3121,6 @@ span + .edit-link:before,
 
 .imgElem:hover {
 	outline: 1px solid #8ae234;
-}
-
-#arrowImg {
-	margin-top: 0px;
 }
 
 .widgetBreaker {
