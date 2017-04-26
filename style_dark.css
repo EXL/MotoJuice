@@ -817,7 +817,7 @@ span + .edit-link:before,
 	width: 100%;
 	z-index: 4;
 	border-bottom: 1px solid black;
-	height: 150px;
+	height: 140px;
 }
 
 .header-main {
@@ -2949,7 +2949,7 @@ span + .edit-link:before,
 	}
 
 	.site-header {
-		height: 150px;
+		height: 140px;
 	}
 
 	img {
@@ -2989,7 +2989,7 @@ span + .edit-link:before,
 	}
 
 	.site-header {
-		height: 150px;
+		height: 140px;
 	}
 
 	img {
@@ -3101,7 +3101,7 @@ span + .edit-link:before,
 
 .projectIcon {
 	float: left;
-	font-size: 10px;
+	font-size: 9px;
 	width: 32%;
 	color: #babdb6;
 	text-align: justify;
@@ -3124,7 +3124,7 @@ span + .edit-link:before,
 }
 
 #arrowImg {
-	margin-top: 5px;
+	margin-top: 0px;
 }
 
 .widgetBreaker {
