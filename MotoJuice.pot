@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Moto Juice 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/MotoJuice\n"
-"POT-Creation-Date: 2017-03-02 15:03:55+00:00\n"
+"POT-Creation-Date: 2017-04-26 11:58:13+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -183,7 +183,7 @@ msgid "Designed by "
 msgstr ""
 
 #: footer.php:51
-msgid "https://exlmoto.ru/"
+msgid "http://exlmoto.ru/"
 msgstr ""
 
 #. #-#-#-#-#  MotoJuice.pot (Moto Juice 1.0)  #-#-#-#-#
@@ -259,87 +259,95 @@ msgid "Page %s"
 msgstr ""
 
 #: header.php:50
-msgid "Welcome!"
-msgstr ""
-
-#: header.php:53
 msgid "Show or hide menu"
 msgstr ""
 
-#: header.php:54
+#: header.php:51
 msgid "Skip to content"
 msgstr ""
 
-#: headerwidget.php:5
-msgid "Go to All Projects Page"
-msgstr ""
-
-#: headerwidget.php:62
+#: headerwidget.php:8
 msgid "<b>Project 1</b> Description."
 msgstr ""
 
-#: headerwidget.php:63
+#: headerwidget.php:9
 msgid "<b>Project 2</b> Description."
 msgstr ""
 
-#: headerwidget.php:64
+#: headerwidget.php:10
 msgid "<b>Project 3</b> Description."
 msgstr ""
 
-#: headerwidget.php:65
+#: headerwidget.php:11
 msgid "<b>Project 4</b> Description."
 msgstr ""
 
-#: headerwidget.php:66
+#: headerwidget.php:12
 msgid "<b>Project 5</b> Description."
 msgstr ""
 
-#: headerwidget.php:67
+#: headerwidget.php:13
 msgid "<b>Project 6</b> Description."
 msgstr ""
 
-#: headerwidget.php:68
+#: headerwidget.php:14
 msgid "<b>Project 7</b> Description."
 msgstr ""
 
-#: headerwidget.php:69
+#: headerwidget.php:15
 msgid "<b>Project 8</b> Description."
 msgstr ""
 
-#: headerwidget.php:70
+#: headerwidget.php:16
 msgid "<b>Project 9</b> Description."
 msgstr ""
 
-#: headerwidget.php:71
+#: headerwidget.php:17
 msgid "<b>Project 10</b> Description."
 msgstr ""
 
-#: headerwidget.php:72
+#: headerwidget.php:18
 msgid "<b>Project 11</b> Description."
 msgstr ""
 
-#: headerwidget.php:73
+#: headerwidget.php:19
 msgid "<b>Project 12</b> Description."
 msgstr ""
 
-#: headerwidget.php:74
+#: headerwidget.php:20
 msgid "<b>Project 13</b> Description."
 msgstr ""
 
-#: headerwidget.php:75
+#: headerwidget.php:21
 msgid "<b>Project 14</b> Description."
 msgstr ""
 
-#: headerwidget.php:76
+#: headerwidget.php:22
 msgid "<b>Project 15</b> Description."
 msgstr ""
 
-#: headerwidget.php:77
+#: headerwidget.php:23
 msgid "<b>Project 16</b> Description."
 msgstr ""
 
-#: headerwidget.php:78
-msgid "<b>Project 99</b> Description."
+#: headerwidget.php:24
+msgid "<b>Project 17</b> Description."
+msgstr ""
+
+#: headerwidget.php:25
+msgid "<b>Project 18</b> Description."
+msgstr ""
+
+#: headerwidget.php:26
+msgid "<b>Project 19</b> Description."
+msgstr ""
+
+#: headerwidget.php:27
+msgid "<b>Project 20</b> Description."
+msgstr ""
+
+#: headerwidget.php:28
+msgid "Go to All Projects Page"
 msgstr ""
 
 #: image.php:66
