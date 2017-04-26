@@ -3096,12 +3096,12 @@ span + .edit-link:before,
 	float: left;
 	font-size: 10px;
 	width: 32%;
-	color: #F5F5F5;
+	color: #657b83;
 	text-align: justify;
 }
 
 .projectIcon b {
-	color: #EEE8AA;
+	color: #b58900;
 	font-weight: bold;
 }
 
