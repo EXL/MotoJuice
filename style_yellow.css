@@ -1897,9 +1897,7 @@ span + .edit-link:before,
 }
 
 @media screen and (max-width: 400px) {
-	.headerWidget,
-	.mainDescription,
-	.secondDescription {
+	.headerWidget {
 		display: none;
 	}
 
@@ -1994,9 +1992,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 401px) {
-	.headerWidget,
-	.mainDescription,
-	.secondDescription {
+	.headerWidget {
 		display: none;
 	}
 
@@ -2154,9 +2150,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 594px) {
-	.headerWidget,
-	.mainDescription,
-	.secondDescription {
+	.headerWidget {
 		display: none;
 	}
 
@@ -2178,9 +2172,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 673px) {
-	.headerWidget,
-	.mainDescription,
-	.secondDescription {
+	.headerWidget {
 		display: none;
 	}
 
@@ -2237,9 +2229,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 783px) {
-	.headerWidget,
-	.mainDescription,
-	.secondDescription {
+	.headerWidget {
 		display: none;
 	}
 
@@ -2276,9 +2266,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 810px) {
-	.headerWidget,
-	.mainDescription,
-	.secondDescription {
+	.headerWidget {
 		display: none;
 	}
 
@@ -2322,9 +2310,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 846px) {
-	.headerWidget,
-	.mainDescription,
-	.secondDescription {
+	.headerWidget {
 		display: none;
 	}
 
@@ -2380,9 +2366,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 1008px) {
-	.headerWidget,
-	.mainDescription,
-	.secondDescription {
+	.headerWidget {
 		display: none;
 	}
 
@@ -2841,9 +2825,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 1040px) {
-	.headerWidget,
-	.mainDescription,
-	.secondDescription {
+	.headerWidget {
 		display: none;
 	}
 
@@ -2889,9 +2871,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 1080px) {
-	.headerWidget,
-	.mainDescription,
-	.secondDescription {
+	.headerWidget {
 		display: none;
 	}
 
@@ -2928,9 +2908,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 1110px) {
-	.headerWidget,
-	.mainDescription,
-	.secondDescription {
+	.headerWidget {
 		display: none;
 	}
 
@@ -2958,8 +2936,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 1218px) {
-	.headerWidget,
-	.secondDescription {
+	.headerWidget {
 		display: block;
 	}
 
@@ -2999,8 +2976,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 1260px) {
-	.headerWidget,
-	.secondDescription {
+	.headerWidget {
 		display: block;
 	}
 
@@ -3111,46 +3087,31 @@ span + .edit-link:before,
 /* Header Widget Settings */
 .headerWidget {
 	position: absolute;
-	right: 28px;
 	top: 58px;
+	left: 5px;
+}
+
+.projectIcon {
+	float: left;
+	font-size: 10px;
+	width: 32%;
+	color: #F5F5F5;
+	text-align: justify;
+}
+
+.projectIcon b {
+	color: #EEE8AA;
+	font-weight: bold;
 }
 
 .imgElem {
-	float: right;
+	margin-right: 5px;
 	margin-left: 5px;
 	border: none;
 }
 
 .imgElem:hover {
 	outline: 1px solid #380000;
-}
-
-.imgDescription {
-	display: none;
-}
-
-.mainDescription,
-.secondDescription {
-	position: absolute;
-	top: 58px;
-	font-size: 10px;
-	color: black;
-}
-
-.mainDescription {
-	display: none;
-	left: 280px;
-	width: 470px;
-}
-
-.mainDescription b {
-	color: darkred;
-	font-weight: bold;
-}
-
-.secondDescription {
-	left: 30px;
-	width: 240px;
 }
 
 .widgetBreaker {
