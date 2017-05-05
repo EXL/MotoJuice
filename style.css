@@ -2266,7 +2266,7 @@ span + .edit-link:before,
 }
 
 @media screen and (min-width: 810px) {
-	.headerWidget, {
+	.headerWidget {
 		display: none;
 	}
 
