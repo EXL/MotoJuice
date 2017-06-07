@@ -78,6 +78,11 @@
 				"<a href=\"http://exlmoto.ru/adamant-armor-affection-adventure-droid/\" title=\"Adamant Armor Affection Adventure\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/8.png\" />" .
 				"</a>" . $p9 .
+			"</div>",
+			"<div class=\"projectIcon\">" .
+				"<a href=\"http://exlmoto.ru/gish-droid/\" title=\"Gish\">" .
+					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/9.png\" />" .
+				"</a>" . $p10 .
 			"</div>"
 		);
 
