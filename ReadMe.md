@@ -7,6 +7,10 @@ The Moto Juice theme for WordPress was based on the Twenty Fourteen WordPress de
 
 The main menu of the theme uses the sidebar widgets as a contents. In header of the Moto Juice was added specially widget for showing current projects and their descriptions.
 
+## Download
+
+You can download ZIP-package with theme for WordPress from the [releases](https://github.com/EXL/MotoJuice/releases) section.
+
 ## Build
 
 * Clone repository into deploy directory:
