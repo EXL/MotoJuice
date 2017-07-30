@@ -817,7 +817,7 @@ span + .edit-link:before,
 	width: 100%;
 	z-index: 4;
 	border-bottom: 1px solid black;
-	height: 140px;
+	height: 150px;
 }
 
 .header-main {
@@ -2949,7 +2949,7 @@ span + .edit-link:before,
 	}
 
 	.site-header {
-		height: 140px;
+		height: 150px;
 	}
 
 	img {
@@ -2989,7 +2989,7 @@ span + .edit-link:before,
 	}
 
 	.site-header {
-		height: 140px;
+		height: 150px;
 	}
 
 	img {
@@ -3101,7 +3101,7 @@ span + .edit-link:before,
 
 .projectIcon {
 	float: left;
-	font-size: 9px;
+	font-size: 10px;
 	width: 32%;
 	color: #babdb6;
 	text-align: justify;
@@ -3115,7 +3115,6 @@ span + .edit-link:before,
 .imgElem {
 	margin-right: 5px;
 	margin-left: 5px;
-	margin-top: -5px;
 	border: none;
 }
 
