@@ -32,8 +32,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-<?php include_once("colorize.php") ?>
-<?php include_once("analyticstracking.php") ?>
+<?php include_once("colorize.php"); ?>
+<?php include_once("analyticstracking.php"); ?>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 
@@ -44,7 +44,7 @@
 				<img class="logo-image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/header-logo.png" height="48">
 			</a>
 
-			<?php include_once("headerwidget.php") ?>
+			<?php include_once("headerwidget.php"); ?>
 
 			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
 				<button class="menu-toggle" title="<?php printf( __( 'Show or hide menu', 'moto-juice' ) ); ?>"></button>
