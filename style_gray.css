@@ -3162,7 +3162,7 @@ span + .edit-link:before,
 	display: inline-block;
 	float: right;
 	width: 35px;
-	margin-top: 4px;
+	margin-top: 3px;
 	margin-right: 2px;
 	z-index: 9;
 }
