@@ -250,7 +250,6 @@ function comment_form_aux( $args = array(), $post_id = null ) {
 
 				// Get the first and the last field name, excluding the textarea
 				$first_field = reset( $comment_field_keys );
-				$last_field  = end( $comment_field_keys );
 
 				foreach ( $comment_fields as $name => $field ) {
 
@@ -264,6 +263,15 @@ function comment_form_aux( $args = array(), $post_id = null ) {
 						 * @param string $args_comment_field The content of the comment textarea field.
 						 */
 						echo apply_filters( 'comment_form_field_comment', $field );
+
+						if ( ! is_user_logged_in() ) {
+							/**
+							 * Fires after the comment fields in the comment form, excluding the textarea.
+							 *
+							 * @since 3.0.0
+							 */
+							do_action( 'comment_form_after_fields' );
+						}
 
 						echo $args['comment_notes_after'];
 
@@ -315,13 +323,6 @@ function comment_form_aux( $args = array(), $post_id = null ) {
 					$submit_button,
 					get_comment_id_fields( $post_id )
 				);
-
-				/**
-				 * Fires after the comment fields in the comment form, including the textarea.
-				 *
-				 * @since 3.0.0
-				 */
-				do_action( 'comment_form_after_fields' );
 
 				/**
 				 * Filters the submit field for the comment form to display.
