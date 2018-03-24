@@ -1201,7 +1201,6 @@ span + .edit-link:before,
 .post-navigation a,
 .image-navigation a {
 	color: #babdb6;
-	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.7142857142;
 }
