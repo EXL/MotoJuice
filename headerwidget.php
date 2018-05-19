@@ -28,59 +28,59 @@
 		$allProjects = __( 'Go to All Projects Page', 'moto-juice' );
 
 		// Arrow
-		$arrw = "<a href=\"http://exlmoto.ru/projects/\" title=\"" . $allProjects . "\">" .
+		$arrw = "<a href=\"https://exlmoto.ru/projects/\" title=\"" . $allProjects . "\">" .
 					"<img class=\"imgElem\" id=\"arrowImg\" src=\"" . $themeDir . "/images/widget/arrow.png\" />" .
 				"</a>";
 		echo $arrw;
 
 		$imageLinks = array(
 			"<div class=\"projectIcon\">" .
-				"<a href=\"http://exlmoto.ru/spout-droid/\" title=\"Spout\">" .
+				"<a href=\"https://exlmoto.ru/spout-droid/\" title=\"Spout\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/0.png\" />" .
 				"</a>" . $p1 .
 			"</div>",
 			"<div class=\"projectIcon\">" .
-				"<a href=\"http://exlmoto.ru/kenlab3d-droid/\" title=\"Ken's Labyrinth\">" .
+				"<a href=\"https://exlmoto.ru/kenlab3d-droid/\" title=\"Ken's Labyrinth\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/1.png\" />" .
 				"</a>" . $p2 .
 			"</div>",
 			"<div class=\"projectIcon\">" .
-				"<a href=\"http://exlmoto.ru/astrosmash-droid/\" title=\"AstroSmash\">" .
+				"<a href=\"https://exlmoto.ru/astrosmash-droid/\" title=\"AstroSmash\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/2.png\" />" .
 				"</a>" . $p3 .
 			"</div>",
 			"<div class=\"projectIcon\">" .
-				"<a href=\"http://exlmoto.ru/snooder21-droid/\" title=\"Snooder 21\">" .
+				"<a href=\"https://exlmoto.ru/snooder21-droid/\" title=\"Snooder 21\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/3.png\" />" .
 				"</a>" . $p4 .
 			"</div>",
 			"<div class=\"projectIcon\">" .
-				"<a href=\"http://exlmoto.ru/bezier-clock/\" title=\"Bezier Clock\">" .
+				"<a href=\"https://exlmoto.ru/bezier-clock/\" title=\"Bezier Clock\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/4.png\" />" .
 				"</a>" . $p5 .
 			"</div>",
 			"<div class=\"projectIcon\">" .
-				"<a href=\"http://exlmoto.ru/nxengine/\" title=\"Cave Story\">" .
+				"<a href=\"https://exlmoto.ru/nxengine/\" title=\"Cave Story\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/5.png\" />" .
 				"</a>" . $p6 .
 			"</div>",
 			"<div class=\"projectIcon\">" .
-				"<a href=\"http://exlmoto.ru/writing-telegram-bots/\" title=\"Gadget Hackwrench\">" .
+				"<a href=\"https://exlmoto.ru/writing-telegram-bots/\" title=\"Gadget Hackwrench\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/6.png\" />" .
 				"</a>" . $p7 .
 			"</div>",
 			"<div class=\"projectIcon\">" .
-				"<a href=\"http://exlmoto.ru/new-updates-and-tools/#1\" title=\"Synergy Calls\">" .
+				"<a href=\"https://exlmoto.ru/new-updates-and-tools/#1\" title=\"Synergy Calls\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/7.png\" />" .
 				"</a>" . $p8 .
 			"</div>",
 			"<div class=\"projectIcon\">" .
-				"<a href=\"http://exlmoto.ru/adamant-armor-affection-adventure-droid/\" title=\"Adamant Armor Affection Adventure\">" .
+				"<a href=\"https://exlmoto.ru/adamant-armor-affection-adventure-droid/\" title=\"Adamant Armor Affection Adventure\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/8.png\" />" .
 				"</a>" . $p9 .
 			"</div>",
 			"<div class=\"projectIcon\">" .
-				"<a href=\"http://exlmoto.ru/gish-droid/\" title=\"Gish\">" .
+				"<a href=\"https://exlmoto.ru/gish-droid/\" title=\"Gish\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/9.png\" />" .
 				"</a>" . $p10 .
 			"</div>"

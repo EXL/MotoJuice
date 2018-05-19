@@ -48,7 +48,7 @@
 
 				<div class="design-sign">
 					<?php printf( __( 'Designed by ', 'moto-juice' ) ); ?>
-					<a href="<?php echo esc_url( __( 'http://exlmoto.ru/', 'moto-juice' ) ); ?>"><?php printf( __( 'EXL', 'moto-juice' ) ); ?></a>
+					<a href="<?php echo esc_url( __( 'https://exlmoto.ru/', 'moto-juice' ) ); ?>"><?php printf( __( 'EXL', 'moto-juice' ) ); ?></a>
 				</div><!--.design-sign-->
 
 				<div class="theme-sign">
