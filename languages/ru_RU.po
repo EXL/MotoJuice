@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Moto Juice 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/MotoJuice\n"
-"POT-Creation-Date: 2018-05-19 00:52:49+00:00\n"
+"POT-Creation-Date: 2018-05-25 11:03:59+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-05-19 08:11+0700\n"
+"PO-Revision-Date: 2018-05-26 00:55+0700\n"
 "Language-Team: \n"
 "X-Generator: Poedit 2.0.7\n"
 "Last-Translator: \n"
@@ -70,50 +70,55 @@ msgstr ""
 msgid "Website"
 msgstr ""
 
-#: comment-form.php:101
+#: comment-form.php:100
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: comment-form.php:103
 msgid "Required fields are marked %s"
 msgstr ""
 
-#: comment-form.php:113
+#: comment-form.php:115
 msgctxt "noun"
 msgid "Comment"
 msgstr ""
 
 #. translators: %s: login URL
-#: comment-form.php:117
+#: comment-form.php:119
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
 
 #. translators: 1: edit user link, 2: accessibility text, 3: user name, 4:
 #. logout URL
-#: comment-form.php:123
+#: comment-form.php:125
 msgid ""
 "<a href=\"%1$s\" aria-label=\"%2$s\">Logged in as %3$s</a>. <a href=\"%4$s"
 "\">Log out?</a>"
 msgstr ""
 
 #. translators: %s: user name
-#: comment-form.php:126
+#: comment-form.php:128
 msgid "Logged in as %s. Edit your profile."
 msgstr ""
 
-#: comment-form.php:130
+#: comment-form.php:132
 msgid "Your email address will not be published."
 msgstr ""
 
-#: comment-form.php:138
+#: comment-form.php:140
 msgid "Leave a Reply"
 msgstr ""
 
-#: comment-form.php:139
+#: comment-form.php:141
 msgid "Leave a Reply to %s"
 msgstr ""
 
-#: comment-form.php:144
+#: comment-form.php:146
 msgid "Cancel reply"
 msgstr ""
 
-#: comment-form.php:145
+#: comment-form.php:147
 msgid "Post Comment"
 msgstr ""
 
@@ -247,7 +252,7 @@ msgid "Designed by "
 msgstr "Дизайн и разработка: "
 
 #: footer.php:51
-msgid "https://exlmoto.ru/"
+msgid "//exlmoto.ru/"
 msgstr ""
 
 #. Author of the plugin/theme
@@ -332,35 +337,33 @@ msgstr ""
 msgid "<b>Project 1</b> Description."
 msgstr ""
 "Первой игрой, которую я портировал на Android OS, был <b>Spout</b>. Я "
-"отвязал приложение от библиотеки SDL, затем переписал рендеринг игрового "
-"контекста на OpenGL и OpenGL ES. В движок <b>Spout</b> были добавлены "
-"некоторые улучшения, вроде сенсорного управления."
+"отвязал приложение от библиотеки SDL, переписал рендеринг игрового контекста "
+"на OpenGL и OpenGL ES. В движок <b>Spout</b> были добавлены некоторые "
+"улучшения, вроде сенсорного управления."
 
 #: headerwidget.php:9
 msgid "<b>Project 2</b> Description."
 msgstr ""
-"В процессе портирования <b>Ken’s Labyrinth</b> на Android OS я решил не "
-"отвязывать игру от библиотеки SDL, а использовать её возможности. Проект был "
-"переведён на SDL2 и OpenGL ES, патчами на поддержку которого любезно "
-"поделился <b>Pickle</b>. В игру было добавлено сенсорное управление и "
-"лаунчер."
+"В процессе портирования <b>Ken’s Labyrinth</b> на Android OS я решил "
+"попробовать использовать библиотеку SDL2. Рендер был переписан на OpenGL ES, "
+"патчами на поддержку которого любезно поделился <b>Pickle</b>. В игру было "
+"добавлено сенсорное управление и лаунчер."
 
 #: headerwidget.php:10
 msgid "<b>Project 3</b> Description."
 msgstr ""
 "Портирование игры <b>AstroSmash</b> с J2ME на Android OS позволило мне "
-"разобраться во многих тонкостях декомпиляции Java-мидлетов и научиться "
-"отрисовывать графику через канвас системного класса SurfaceView. Игра "
-"<b>AstroSmash</b> была стандартной игрой во многих мобильных телефонах "
-"Motorola."
+"разобраться в декомпиляции Java-мидлетов и научиться отрисовывать графику "
+"через канвас класса SurfaceView. Игра <b>AstroSmash</b> была стандартной "
+"игрой во многих мобильных телефонах Motorola."
 
 #: headerwidget.php:11
 msgid "<b>Project 4</b> Description."
 msgstr ""
-"Игра <b>Snooder 21</b> является моим ремейком популярного карточного "
-"пасьянса <b>Snood™ 21</b>, который был предустановлен в телефонах <b>C350</"
-"b> и <b>V150</b> от Motorola. Игровые ресурсы были отрисованы в духе "
-"оригинала. Приложение использует канвас класса SurfaceView."
+"Игра <b>Snooder 21</b> это мой ремейк популярного карточного пасьянса "
+"<b>Snood™ 21</b>, который был предустановлен в телефонах <b>C350</b> и "
+"<b>V150</b> от Motorola. Игровые ресурсы были отрисованы в духе оригинала. "
+"Приложение использует канвас класса SurfaceView."
 
 #: headerwidget.php:12
 msgid "<b>Project 5</b> Description."
@@ -374,17 +377,17 @@ msgstr ""
 msgid "<b>Project 6</b> Description."
 msgstr ""
 "Мой порт игрового движка <b>NXEngine</b> предназначен для запуска игры "
-"<b>Cave Story</b> на самых разных платформах, в том числе на Dingux и "
-"MotoMAGX. Из основных улучшений: возможность вывода изображения на "
-"широкоформатный экран, оптимизация звука и поддержка русификации."
+"<b>Cave Story</b> на Dingux, MotoMAGX, EZX и некоторых других платформах. "
+"Основные улучшения: поддержка широкоформатных разрешений, оптимизация вывода "
+"музыки и русификация приложения."
 
 #: headerwidget.php:14
 msgid "<b>Project 7</b> Description."
 msgstr ""
 "Для конференции @motofan_ru в сервисе Telegram я написал бота <b>Гаечку</b>, "
-"которая записывает важные новости и события, происходящие в группах. "
-"Благодаря патчам от <b>Zorge.R</b> она научилась делиться полезной "
-"информацией, например, котировками и доступностью игровых серверов."
+"записывающую интересные новости и события, происходящие в группах. Благодаря "
+"патчам от <b>Zorge.R</b> она научилась делиться котировками валют и "
+"доступностью игровых серверов."
 
 #: headerwidget.php:15
 msgid "<b>Project 8</b> Description."
@@ -399,16 +402,16 @@ msgid "<b>Project 9</b> Description."
 msgstr ""
 "Игра <b>Adamant Armor Affection Adventure</b> от <b>quasist</b>'а и <b>Don</"
 "b>'а <b>Miguel</b>'я заняла второе место в конкурсе RIOT Tag-Team Coding "
-"Competition. Вдохновившись успехом игры и самоотверженным трудом её авторов, "
-"я решил \"воздать славу\" старой GPH-тусовке и портировать её на Android OS."
+"Competition. Вдохновившись проведённой работой, я решил \"воздать славу\" "
+"старой GPH-тусовке и портировать её на Android OS."
 
 #: headerwidget.php:17
 msgid "<b>Project 10</b> Description."
 msgstr ""
-"При портировании на Android OS замечательного инди-платформера <b>Gish</b> "
+"Для портирования на Android OS замечательного инди-платформера <b>Gish</b> "
 "от <b>Cryptic Sea</b> я использовал библиотеки SDL2, OpenAL, Ogg Vorbis и "
-"классный враппер GL4ES, который был написан разработчиком <b>ptitSeb</b>'ом "
-"и который занимается трансляцией вызовов OpenGL в OpenGL ES."
+"классный враппер GL4ES от <b>ptitSeb</b>, позволяющий транслировать вызовы "
+"функций OpenGL в OpenGL ES."
 
 #: headerwidget.php:18
 msgid "<b>Project 11</b> Description."
