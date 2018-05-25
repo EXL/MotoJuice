@@ -3113,6 +3113,7 @@ span + .edit-link:before,
 .imgElem {
 	margin-right: 5px;
 	margin-left: 5px;
+	margin-bottom: 5px;
 	border: none;
 }
 
