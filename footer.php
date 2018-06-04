@@ -43,7 +43,7 @@
 
 			<div class="footer-sign">
 				<div class="copyright-sign">
-					<?php printf( __( '(c) 2010-%s. All Rights Reserved', 'moto-juice' ), date('Y') ); ?>
+					<?php printf( __( '(c) 2010-%s. All Rights Reserved.', 'moto-juice' ), date('Y') ); ?>
 				</div><!--.copyright-sign-->
 
 				<div class="design-sign">
