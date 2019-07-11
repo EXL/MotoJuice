@@ -24,6 +24,15 @@ function setCookie(key, value) {
 	button = nav.find( '.menu-toggle' );
 	menu = nav.find( '.nav-menu' );
 
+	// Hack for Archives Widgets for new WordPress
+	var archives = document.getElementsByName("archive-dropdown")[1];
+	function onSelectChange() {
+		if ( archives.options[ archives.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	archives.onchange = onSelectChange;
+
 	// Hack for Categories Widget
 	if (jQuery('.cat-item')) {
 		for (var i = 0; i < jQuery('.cat-item').length; ++i) {
