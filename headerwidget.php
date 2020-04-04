@@ -70,19 +70,14 @@
 				"</a>" . $p7 .
 			"</div>",
 			"<div class=\"projectIcon\">" .
-				"<a href=\"//exlmoto.ru/new-updates-and-tools/#1\" title=\"Synergy Calls\">" .
-					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/7.png\" />" .
-				"</a>" . $p8 .
-			"</div>",
-			"<div class=\"projectIcon\">" .
 				"<a href=\"//exlmoto.ru/adamant-armor-affection-adventure-droid/\" title=\"Adamant Armor Affection Adventure\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/8.png\" />" .
-				"</a>" . $p9 .
+				"</a>" . $p8 .
 			"</div>",
 			"<div class=\"projectIcon\">" .
 				"<a href=\"//exlmoto.ru/gish-droid/\" title=\"Gish\">" .
 					"<img class=\"imgElem\" align=\"left\" src=\"" . $themeDir . "/images/widget/9.png\" />" .
-				"</a>" . $p10 .
+				"</a>" . $p9 .
 			"</div>"
 		);
 
