@@ -1,14 +1,14 @@
-# Copyright (C) 2018 EXL
+# Copyright (C) 2020 EXL
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
 "Project-Id-Version: Moto Juice 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/MotoJuice\n"
-"POT-Creation-Date: 2018-06-04 23:19:15+00:00\n"
+"POT-Creation-Date: 2020-04-04 04:02:52+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -320,11 +320,11 @@ msgstr[1] ""
 msgid "Page %s"
 msgstr ""
 
-#: header.php:50
+#: header.php:52
 msgid "Show or hide menu"
 msgstr ""
 
-#: header.php:51
+#: header.php:53
 msgid "Skip to content"
 msgstr ""
 
